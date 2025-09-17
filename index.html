@@ -9,47 +9,6 @@
     <title>PEC da Blindagem</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
-    <style>
-        .vote-sim {
-            color: #198754;
-            font-weight: bold;
-        }
-
-        .vote-nao {
-            color: #dc3545;
-            font-weight: bold;
-        }
-
-        .vote-abstencao {
-            color: #fd7e14;
-            font-weight: bold;
-        }
-
-        .vote-ausente {
-            color: #6c757d;
-            font-weight: bold;
-        }
-
-        .vote-null {
-            color: #adb5bd;
-            font-style: italic;
-        }
-
-        .social-links a {
-            margin-right: 10px;
-        }
-
-        .photo-container {
-            text-align: center;
-            margin-bottom: 15px;
-        }
-
-        .deputy-photo {
-            max-width: 120px;
-            border-radius: 10px;
-            border: 3px solid #dee2e6;
-        }
-    </style>
 </head>
 
 <body>
@@ -360,10 +319,10 @@
 
             modalBody.innerHTML = `
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <div class="photo-container">
                             <img src="${deputado.urlFoto}" alt="Foto de ${deputado.nome
-                }" class="deputy-photo img-fluid" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDEyMCAxNDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iMTQwIiBmaWxsPSIjZGVlMmU2Ii8+CjxjaXJjbGUgY3g9IjYwIiBjeT0iNTAiIHI9IjIwIiBmaWxsPSIjNmM3NTdkIi8+CjxwYXRoIGQ9Ik0yMCAxMDBjMC0yMiAyMC00MCA0MC00MHM0MCAxOCA0MCA0MHY0MEgyMHoiIGZpbGw9IiM2Yzc1N2QiLz4KPHN2Zz4K'">
+                }" class="rounded-3 border border-4 img-fluid">
                         </div>
                     </div>
                     <div class="col-md-8">
