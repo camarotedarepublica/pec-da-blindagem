@@ -78,7 +78,7 @@
                     <option value="">Todos</option>
                 </select>
             </div>
-            <div class="col-md-2 mt-2 mt-md-0">
+            <div class="col-md-1 mt-2 mt-md-0">
                 <label for="filtroUF" class="form-label">
                     <i class="bi bi-geo-alt"></i> UF
                 </label>
@@ -86,11 +86,24 @@
                     <option value="">Todos</option>
                 </select>
             </div>
-            <div class="col-md-2 mt-2 mt-md-0">
-                <label for="filtroVoto" class="form-label">
-                    <i class="bi bi-check-circle"></i> Voto
+            <div class="col-md-1 mt-2 mt-md-0">
+                <label for="filtroVoto1Turno" class="form-label">
+                    <i class="bi bi-check-circle"></i> 1º Turno
                 </label>
-                <select class="form-select" id="filtroVoto">
+                <select class="form-select" id="filtroVoto1Turno">
+                    <option value="">Todos</option>
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                    <option value="Abstenção">Abstenção</option>
+                    <option value="Ausente">Ausente</option>
+                    <option value="null">Não Informado</option>
+                </select>
+            </div>
+            <div class="col-md-1 mt-2 mt-md-0">
+                <label for="filtroVoto2Turno" class="form-label">
+                    <i class="bi bi-check-circle"></i> 2º Turno
+                </label>
+                <select class="form-select" id="filtroVoto2Turno">
                     <option value="">Todos</option>
                     <option value="Sim">Sim</option>
                     <option value="Não">Não</option>
@@ -113,11 +126,12 @@
             <table class="table table-striped table-hover">
                 <thead class="table-dark sticky-top">
                     <tr>
-                        <th width="30%"><i class="bi bi-person"></i> Nome</th>
-                        <th width="20%"><i class="bi bi-flag"></i> Partido</th>
+                        <th width="25%"><i class="bi bi-person"></i> Nome</th>
+                        <th width="15%"><i class="bi bi-flag"></i> Partido</th>
                         <th width="10%"><i class="bi bi-geo-alt"></i> UF</th>
-                        <th width="15%"><i class="bi bi-check-circle"></i> Voto</th>
-                        <th width="25%"></th>
+                        <th width="10%"><i class="bi bi-check-circle"></i> 1º Turno</th>
+                        <th width="10%"><i class="bi bi-check-circle"></i> 2º Turno</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody id="deputadosTableBody"></tbody>
@@ -231,26 +245,32 @@
                 row.className = "candidate-row";
                 row.onclick = () => showDeputadoDetails(deputado);
 
-                const votoClass = getVoteClass(deputado.voto);
-                const votoText = deputado.voto || "Não Informado";
+                const voto1Turno = deputado.voto && deputado.voto["1turno"] ? deputado.voto["1turno"] : null;
+                const voto2Turno = deputado.voto && deputado.voto["2turno"] ? deputado.voto["2turno"] : null;
+                
+                const voto1Class = getVoteClass(voto1Turno);
+                const voto2Class = getVoteClass(voto2Turno);
+                const voto1Text = voto1Turno || "Não Informado";
+                const voto2Text = voto2Turno || "Não Informado";
 
                 row.innerHTML = `
                     <td class="align-middle">
-                        <strong>${deputado.nomeEleitoral}</strong></small>
+                        <strong>${deputado.nomeEleitoral}</strong>
                     </td>
                     <td class="align-middle">
-                        <span>${deputado.siglaPartido
-                    }</span>
+                        <span>${deputado.siglaPartido}</span>
                     </td>
                     <td class="align-middle">
-                        <span>${deputado.siglaUf
-                    }</span>
+                        <span>${deputado.siglaUf}</span>
                     </td>
                     <td class="align-middle">
-                        <span class="${votoClass}">${votoText}</span>
+                        <span class="${voto1Class}">${voto1Text}</span>
                     </td>
                     <td class="align-middle">
-                        ${deputado.voto === "Sim" ?
+                        <span class="${voto2Class}">${voto2Text}</span>
+                    </td>
+                    <td class="align-middle">
+                        ${(voto1Turno === "Sim" || voto2Turno === "Sim") ?
                             `<button class="btn btn-sm btn-info" onclick="event.stopPropagation(); showDeputadoDetails(deputadosData.find(d => d.id === ${deputado.id}))">
                                 <i class="bi bi-flag-fill"></i> Protestar
                             </button>` : ''
@@ -356,9 +376,12 @@
                 }</span></p>
                         <p class="m-0"><strong>UF:</strong> <span class="badge bg-secondary">${deputado.siglaUf
                 }</span></p>
-                        <p class="m-0"><strong>Voto:</strong> <span class="${getVoteClass(
-                    deputado.voto
-                )}">${deputado.voto || "Não Informado"}</span></p>
+                        <p class="m-0"><strong>1º Turno:</strong> <span class="${getVoteClass(
+                    deputado.voto && deputado.voto["1turno"] ? deputado.voto["1turno"] : null
+                )}">${deputado.voto && deputado.voto["1turno"] ? deputado.voto["1turno"] : "Não Informado"}</span></p>
+                        <p class="m-0"><strong>2º Turno:</strong> <span class="${getVoteClass(
+                    deputado.voto && deputado.voto["2turno"] ? deputado.voto["2turno"] : null
+                )}">${deputado.voto && deputado.voto["2turno"] ? deputado.voto["2turno"] : "Não Informado"}</span></p>
                     </div>
                 </div>
                 
@@ -454,7 +477,8 @@
                 .value.toLowerCase();
             const partidoFilter = document.getElementById("filtroPartido").value;
             const ufFilter = document.getElementById("filtroUF").value;
-            const votoFilter = document.getElementById("filtroVoto").value;
+            const voto1TurnoFilter = document.getElementById("filtroVoto1Turno").value;
+            const voto2TurnoFilter = document.getElementById("filtroVoto2Turno").value;
 
             filteredData = deputadosData.filter((deputado) => {
                 const nomeMatch =
@@ -468,13 +492,23 @@
                 const partidoMatch =
                     !partidoFilter || deputado.siglaPartido === partidoFilter;
                 const ufMatch = !ufFilter || deputado.siglaUf === ufFilter;
-                const votoMatch =
-                    !votoFilter ||
-                    (votoFilter === "null"
-                        ? !deputado.voto
-                        : deputado.voto === votoFilter);
+                
+                const voto1Turno = deputado.voto && deputado.voto["1turno"] ? deputado.voto["1turno"] : null;
+                const voto2Turno = deputado.voto && deputado.voto["2turno"] ? deputado.voto["2turno"] : null;
+                
+                const voto1Match =
+                    !voto1TurnoFilter ||
+                    (voto1TurnoFilter === "null"
+                        ? !voto1Turno
+                        : voto1Turno === voto1TurnoFilter);
+                        
+                const voto2Match =
+                    !voto2TurnoFilter ||
+                    (voto2TurnoFilter === "null"
+                        ? !voto2Turno
+                        : voto2Turno === voto2TurnoFilter);
 
-                return nomeMatch && partidoMatch && ufMatch && votoMatch;
+                return nomeMatch && partidoMatch && ufMatch && voto1Match && voto2Match;
             });
 
             renderTable();
@@ -484,7 +518,8 @@
             document.getElementById("filtroNome").value = "";
             document.getElementById("filtroPartido").value = "";
             document.getElementById("filtroUF").value = "";
-            document.getElementById("filtroVoto").value = "";
+            document.getElementById("filtroVoto1Turno").value = "";
+            document.getElementById("filtroVoto2Turno").value = "";
 
             filteredData = [...deputadosData];
             renderTable();
@@ -583,7 +618,10 @@ Por isso peço que atue contra a aprovação da PEC no Senado, além de dar maio
                 .getElementById("filtroUF")
                 .addEventListener("change", applyFilters);
             document
-                .getElementById("filtroVoto")
+                .getElementById("filtroVoto1Turno")
+                .addEventListener("change", applyFilters);
+            document
+                .getElementById("filtroVoto2Turno")
                 .addEventListener("change", applyFilters);
             document
                 .getElementById("limparFiltros")

@@ -35,7 +35,10 @@
             "https:\/\/www.facebook.com\/deputadofederalacaciofavacho",
             "https:\/\/youtube.com\/channel\/UCWNbptIjAriL2pt8H3W6CGw"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220714,
@@ -74,7 +77,10 @@
             "https:\/\/www.instagram.com\/adailfilho\/",
             "https:\/\/www.youtube.com\/@AdailFilho"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 221328,
@@ -108,7 +114,10 @@
         "nomeEleitoral": "Adilson Barroso",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204560,
@@ -142,7 +151,10 @@
         "nomeEleitoral": "Adolfo Viana",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204528,
@@ -181,7 +193,10 @@
             "https:\/\/www.instagram.com\/adriventurasp",
             "https:\/\/youtube.com\/adrianaventura"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 121948,
@@ -219,7 +234,10 @@
             "https:\/\/www.facebook.com\/AdrianoDoBaldyOficial",
             "https:\/\/www.instagram.com\/adrianodobaldyoficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74646,
@@ -253,7 +271,10 @@
         "nomeEleitoral": "Aécio Neves",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 136811,
@@ -290,7 +311,10 @@
             "https:\/\/www.facebook.com\/depafonsohamm",
             "https:\/\/www.instagram.com\/afonsohamm"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178835,
@@ -324,7 +348,10 @@
         "nomeEleitoral": "Afonso Motta",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": null
+        }
     },
     {
         "id": 160527,
@@ -362,7 +389,10 @@
             "https:\/\/www.facebook.com\/depaguinaldoribeiro",
             "https:\/\/www.instagram.com\/depaguinaldoribeiro"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204495,
@@ -396,7 +426,10 @@
         "nomeEleitoral": "Airton Faleiro",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204549,
@@ -430,7 +463,10 @@
         "nomeEleitoral": "AJ Albuquerque",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 73579,
@@ -466,7 +502,10 @@
         "redesSociais": [
             "https:\/\/www.facebook.com\/deputadoalbertofraga"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220538,
@@ -500,7 +539,10 @@
         "nomeEleitoral": "Albuquerque",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160559,
@@ -536,7 +578,10 @@
         "redesSociais": [
             "http:\/\/twitter.com\/alceu_moreira"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204501,
@@ -575,7 +620,10 @@
             "https:\/\/www.instagram.com\/AlencarBraga13",
             "https:\/\/youtube.com\/AlencarBraga13"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 178972,
@@ -614,7 +662,10 @@
             "https:\/\/www.instagram.com\/alexmanente\/",
             "https:\/\/youtube.com\/c\/AlexManenteOficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204571,
@@ -648,7 +699,10 @@
         "nomeEleitoral": "Alex Santana",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Abstenção"
+        "voto": {
+            "1turno": "Abstenção",
+            "2turno": null
+        }
     },
     {
         "id": 220542,
@@ -682,7 +736,10 @@
         "nomeEleitoral": "Alexandre Guimarães",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220554,
@@ -716,7 +773,10 @@
         "nomeEleitoral": "Alexandre Lindenmeyer",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 221148,
@@ -752,7 +812,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/Alfredinho.pt"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220576,
@@ -791,7 +854,10 @@
             "https:\/\/www.instagram.com\/alfredogaspar",
             "https:\/\/youtube.com\/AlfredoGasparOficial"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 74057,
@@ -825,7 +891,10 @@
         "nomeEleitoral": "Alice Portugal",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 178927,
@@ -859,7 +928,10 @@
         "nomeEleitoral": "Aliel Machado",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204353,
@@ -898,7 +970,10 @@
             "https:\/\/www.instagram.com\/dep_alinegurgel",
             "https:\/\/youtube.com\/channel\/UC7v2Ng9B1UAxhEypPw5cEag"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 226708,
@@ -938,7 +1013,10 @@
             "https:\/\/www.instagram.com\/allan.garces",
             "https:\/\/youtube.com\/channel\/UCarcImE3nnhmisi8RRbdm-w"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178937,
@@ -976,7 +1054,10 @@
             "https:\/\/www.facebook.com\/altineucortesrj",
             "https:\/\/www.instagram.com\/altineucortesrj"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178881,
@@ -1015,7 +1096,10 @@
             "https:\/\/www.instagram.com\/aluisiomendesma",
             "https:\/\/youtube.com\/aluisiomendesma"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220707,
@@ -1052,7 +1136,10 @@
             "https:\/\/twitter.com\/amandagentiI",
             "https:\/\/www.instagram.com\/amandagentill"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204356,
@@ -1090,7 +1177,10 @@
             "https:\/\/www.facebook.com\/amaronetotv",
             "https:\/\/www.instagram.com\/amaronetotv"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220715,
@@ -1129,7 +1219,10 @@
             "https:\/\/www.instagram.com\/eusouamom",
             "https:\/\/youtube.com\/channel\/UCwPEeCb9CuIqhqpUoGvGpvA"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 107970,
@@ -1168,7 +1261,10 @@
             "https:\/\/www.instagram.com\/anapaulajunqueiraleao",
             "https:\/\/youtube.com\/channel\/UC-DlAUSQo11ZjK_yhbXoTgQ"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220556,
@@ -1202,7 +1298,10 @@
         "nomeEleitoral": "Ana Paula Lima",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220632,
@@ -1236,7 +1335,10 @@
         "nomeEleitoral": "Ana Pimentel",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 178831,
@@ -1272,7 +1374,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/andreabdon_"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220657,
@@ -1311,7 +1416,10 @@
             "https:\/\/www.instagram.com\/andrefernandes",
             "https:\/\/youtube.com\/depandrefernandes"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204423,
@@ -1349,7 +1457,10 @@
             "https:\/\/www.instagram.com\/andreferreira.pe",
             "https:\/\/youtube.com\/channel\/UC54XdbWXP1ZaimNu9Ujuvgw"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 133439,
@@ -1386,7 +1497,10 @@
             "https:\/\/twitter.com\/andrepdt12",
             "https:\/\/www.facebook.com\/DeputadoAndreFigueiredo"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220676,
@@ -1424,7 +1538,10 @@
             "https:\/\/www.facebook.com\/andreiabsiqueira",
             "https:\/\/www.instagram.com\/andreiasiqueira"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 123756,
@@ -1458,7 +1575,10 @@
         "nomeEleitoral": "Antônia Lúcia",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220544,
@@ -1496,7 +1616,10 @@
             "https:\/\/www.facebook.com\/toinhoandradetocantins",
             "https:\/\/www.instagram.com\/toinhoandradeto"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160553,
@@ -1532,7 +1655,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/antoniobritobahia\/"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220638,
@@ -1566,7 +1692,10 @@
         "nomeEleitoral": "Antonio Carlos Rodrigues",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220675,
@@ -1600,7 +1729,10 @@
         "nomeEleitoral": "Antônio Doido",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220549,
@@ -1634,7 +1766,10 @@
         "nomeEleitoral": "Any Ortiz",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 73433,
@@ -1672,7 +1807,10 @@
             "https:\/\/www.facebook.com\/depchinaglia",
             "https:\/\/www.instagram.com\/depchinaglia"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 141391,
@@ -1711,7 +1849,10 @@
             "https:\/\/www.instagram.com\/arnaldojardimoficial",
             "https:\/\/youtube.com\/channel\/UCBmGmOqIcw_Dob8eq3VtjZQ"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160541,
@@ -1745,7 +1886,10 @@
         "nomeEleitoral": "Arthur Lira",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160600,
@@ -1783,7 +1927,10 @@
             "https:\/\/instagram.com\/departhuroliveiramaia",
             "https:\/\/twitter.com\/DepArthurMaia"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74090,
@@ -1817,7 +1964,10 @@
         "nomeEleitoral": "Átila Lins",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 123086,
@@ -1855,7 +2005,10 @@
             "https:\/\/www.facebook.com\/atilalirapi",
             "https:\/\/www.instagram.com\/atilalirapi\/#"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160665,
@@ -1894,7 +2047,10 @@
             "https:\/\/www.instagram.com\/augustocoutinhope",
             "https:\/\/youtube.com\/featured"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160512,
@@ -1933,7 +2089,10 @@
             "https:\/\/www.instagram.com\/aureo.ribeiro",
             "https:\/\/youtube.com\/AureoRibeiro77"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 69871,
@@ -1971,7 +2130,10 @@
             "https:\/\/www.facebook.com\/DEPUTADOBACELAR",
             "https:\/\/www.instagram.com\/DEPUTADOBACELAR"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178975,
@@ -2007,7 +2169,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/baleia.rossi"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220605,
@@ -2046,7 +2211,10 @@
             "https:\/\/www.instagram.com\/eduardobandeirademello",
             "https:\/\/youtube.com\/bandeirademello.oficial"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220612,
@@ -2083,7 +2251,10 @@
             "https:\/\/www.facebook.com\/bebetodaveggi",
             "https:\/\/www.instagram.com\/bebetorj"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 73701,
@@ -2117,7 +2288,10 @@
         "nomeEleitoral": "Benedita da Silva",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 109429,
@@ -2155,7 +2329,10 @@
             "https:\/\/www.facebook.com\/BenesLeocadioRN",
             "https:\/\/www.instagram.com\/benesleocadiorn"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204358,
@@ -2189,7 +2366,10 @@
         "nomeEleitoral": "Beto Pereira",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220683,
@@ -2228,7 +2408,10 @@
             "https:\/\/www.instagram.com\/betoricha\/",
             "https:\/\/www.youtube.com\/channel\/UC11K_Oia5ib5Zknm87oG1FQ"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204374,
@@ -2267,7 +2450,10 @@
             "https:\/\/www.instagram.com\/biakicis",
             "https:\/\/youtube.com\/biakicis"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204388,
@@ -2301,7 +2487,10 @@
         "nomeEleitoral": "Bibo Nunes",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160538,
@@ -2340,7 +2529,10 @@
             "https:\/\/www.instagram.com\/bohn_gass",
             "https:\/\/youtube.com\/elvinobohngass"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 210989,
@@ -2374,7 +2566,10 @@
         "nomeEleitoral": "Bruno Farias",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220635,
@@ -2411,7 +2606,10 @@
             "https:\/\/www.facebook.com\/BrunoGanemSP",
             "https:\/\/www.instagram.com\/brunoganemsp"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220574,
@@ -2450,7 +2648,10 @@
             "https:\/\/www.instagram.com\/CaboGilbertoSilva",
             "https:\/\/youtube.com\/cabogilberto"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 143942,
@@ -2484,7 +2685,10 @@
         "nomeEleitoral": "Caio Vianna",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220548,
@@ -2522,7 +2726,10 @@
             "https:\/\/www.facebook.com\/camilajarams",
             "https:\/\/www.instagram.com\/camilajarams"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 204572,
@@ -2560,7 +2767,10 @@
             "https:\/\/www.facebook.com\/capitaoalbertoneto",
             "https:\/\/www.instagram.com\/capitaoalbertoneto"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220690,
@@ -2597,7 +2807,10 @@
             "https:\/\/twitter.com\/https:",
             "https:\/\/www.facebook.com\/deputadocapitaoalden"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178829,
@@ -2631,7 +2844,10 @@
         "nomeEleitoral": "Capitão Augusto",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 213762,
@@ -2668,7 +2884,10 @@
             "https:\/\/www.facebook.com\/carladicksonoficial",
             "https:\/\/www.instagram.com\/carladicksonoficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178993,
@@ -2704,7 +2923,10 @@
         "redesSociais": [
             "https:\/\/www.facebook.com\/carlosgaguim"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204460,
@@ -2743,7 +2965,10 @@
             "https:\/\/www.instagram.com\/carlosjordy",
             "https:\/\/youtube.com\/channel\/UCkWU59eSRp41W6bCdyJlRdg"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74262,
@@ -2777,7 +3002,10 @@
         "nomeEleitoral": "Carlos Sampaio",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204426,
@@ -2816,7 +3044,10 @@
             "https:\/\/www.instagram.com\/carlosverass",
             "https:\/\/youtube.com\/channel\/UC93PwCF8EVN4RYG-h2OpJLw"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 141398,
@@ -2855,7 +3086,10 @@
             "https:\/\/www.instagram.com\/depzarattini",
             "https:\/\/youtube.com\/channel\/UCAToRcTD6QsRAXjCBU8LTzw"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220704,
@@ -2889,7 +3123,10 @@
         "nomeEleitoral": "Carol Dartora",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": null
+        }
     },
     {
         "id": 204369,
@@ -2928,7 +3165,10 @@
             "https:\/\/www.instagram.com\/carolinedetoni",
             "https:\/\/youtube.com\/videos"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220699,
@@ -2962,7 +3202,10 @@
         "nomeEleitoral": "Castro Neto",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 206018,
@@ -2996,7 +3239,10 @@
         "nomeEleitoral": "Célia Xakriabá",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 178876,
@@ -3033,7 +3279,10 @@
             "https:\/\/www.facebook.com\/deputadoceliosilveira2",
             "https:\/\/www.instagram.com\/celiosilveiradeputado"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204488,
@@ -3072,7 +3321,10 @@
             "https:\/\/www.instagram.com\/celiostudart",
             "https:\/\/youtube.com\/channel\/UCHEI0XtQiyNwR5x7bVTewGQ"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 73441,
@@ -3111,7 +3363,10 @@
             "https:\/\/www.instagram.com\/celsorussomanno",
             "https:\/\/youtube.com\/celsorussomanno"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204504,
@@ -3148,7 +3403,10 @@
             "https:\/\/www.facebook.com\/cezinhademadureira",
             "https:\/\/www.instagram.com\/cezinhademadureira"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 205476,
@@ -3182,7 +3440,10 @@
         "nomeEleitoral": "Charles Fernandes",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 74171,
@@ -3220,7 +3481,10 @@
             "https:\/\/www.facebook.com\/chicoalencar",
             "https:\/\/www.instagram.com\/chico.alencar"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204462,
@@ -3259,7 +3523,10 @@
             "https:\/\/www.instagram.com\/christonietto",
             "https:\/\/youtube.com\/channel\/UCqqG6AaU2hm2vLhMir4Jdlw"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220665,
@@ -3298,7 +3565,10 @@
             "https:\/\/www.instagram.com\/clarissatercio",
             "https:\/\/youtube.com\/CLARISSATERCIOOficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74537,
@@ -3332,7 +3602,10 @@
         "nomeEleitoral": "Claudio Cajado",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 141408,
@@ -3366,7 +3639,10 @@
         "nomeEleitoral": "Cleber Verde",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 88256,
@@ -3404,7 +3680,10 @@
             "https:\/\/www.facebook.com\/deputadoclodoaldomagalhaes",
             "https:\/\/www.instagram.com\/deputadoclodoaldomagalhaes"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 98148,
@@ -3438,7 +3717,10 @@
         "nomeEleitoral": "Cobalchini",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220594,
@@ -3477,7 +3759,10 @@
             "https:\/\/www.instagram.com\/coronelassis",
             "https:\/\/youtube.com\/coronelassis308"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204378,
@@ -3511,7 +3796,10 @@
         "nomeEleitoral": "Coronel Chrisóstomo",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220595,
@@ -3549,7 +3837,10 @@
             "https:\/\/www.facebook.com\/coronelfernandamt",
             "https:\/\/www.instagram.com\/coronelfernandamt"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220666,
@@ -3586,7 +3877,10 @@
             "https:\/\/twitter.com\/coronel_meira",
             "https:\/\/www.instagram.com\/coronelmeiraoficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220590,
@@ -3625,7 +3919,10 @@
             "https:\/\/www.instagram.com\/coronelulysses",
             "https:\/\/youtube.com\/coronelulysses"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178963,
@@ -3663,7 +3960,10 @@
             "https:\/\/www.facebook.com\/covatti.filho",
             "https:\/\/www.instagram.com\/covattifilho"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220608,
@@ -3697,7 +3997,10 @@
         "nomeEleitoral": "Cristiane Lopes",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204355,
@@ -3736,7 +4039,10 @@
             "https:\/\/www.instagram.com\/deputadodavitoria",
             "https:\/\/youtube.com\/channel\/UC4YSDb1Hfh-DtR1Wj0WQNWg?view_as=subscriber"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 141411,
@@ -3774,7 +4080,10 @@
             "https:\/\/www.facebook.com\/dagobertonogueirams",
             "https:\/\/www.instagram.com\/dagobertonogueirams"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 220555,
@@ -3812,7 +4121,10 @@
             "https:\/\/www.facebook.com\/daianasantospoa",
             "https:\/\/www.instagram.com\/daianasantospoa"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220692,
@@ -3851,7 +4163,10 @@
             "https:\/\/www.instagram.com\/dalbarretodeputado",
             "https:\/\/youtube.com\/channel\/UCFUsJuJCkySxlbxeZjrpKgQ"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74467,
@@ -3885,7 +4200,10 @@
         "nomeEleitoral": "Damião Feliciano",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220629,
@@ -3922,7 +4240,10 @@
             "https:\/\/twitter.com\/todandara",
             "https:\/\/www.instagram.com\/todandara"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": null
+        }
     },
     {
         "id": 220603,
@@ -3956,7 +4277,10 @@
         "nomeEleitoral": "Dani Cunha",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220571,
@@ -3992,7 +4316,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/daniel.agrobom"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74060,
@@ -4026,7 +4353,10 @@
         "nomeEleitoral": "Daniel Almeida",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220582,
@@ -4063,7 +4393,10 @@
             "https:\/\/twitter.com\/DanielBarbosaAL",
             "https:\/\/www.instagram.com\/daniel.barbosa.al"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204367,
@@ -4101,7 +4434,10 @@
             "https:\/\/www.facebook.com\/depdanielfreitas",
             "https:\/\/www.instagram.com\/danielcfreitas"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204409,
@@ -4140,7 +4476,10 @@
             "https:\/\/www.instagram.com\/danieltrzeciak45",
             "https:\/\/youtube.com\/DanielTrzeciak"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204459,
@@ -4178,7 +4517,10 @@
             "https:\/\/www.facebook.com\/share",
             "https:\/\/www.instagram.com\/danielacarneirooficial"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220557,
@@ -4216,7 +4558,10 @@
             "https:\/\/www.facebook.com\/danielareinehr.sc",
             "https:\/\/www.instagram.com\/danielareinehr"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 62881,
@@ -4254,7 +4599,10 @@
             "https:\/\/www.facebook.com\/depdaniloforte",
             "https:\/\/www.instagram.com\/depdaniloforte"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160552,
@@ -4288,7 +4636,10 @@
         "nomeEleitoral": "Danrlei de Deus Hinterholz",
         "descricaoStatus": "Ofício s\/n, de 17\/10\/2024, Dep Danrlei de Deus Hinterholz",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204511,
@@ -4322,7 +4673,10 @@
         "nomeEleitoral": "David Soares",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220659,
@@ -4361,7 +4715,10 @@
             "https:\/\/www.instagram.com\/dayanybittencourt",
             "https:\/\/youtube.com\/dayanydocapitao9613"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220539,
@@ -4395,7 +4752,10 @@
         "nomeEleitoral": "Defensor Stélio Dener",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220565,
@@ -4434,7 +4794,10 @@
             "https:\/\/www.instagram.com\/adriana_accorsi\/",
             "https:\/\/www.youtube.com\/channel\/UCka3DO1hTh69qpZm27yjlmg"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220625,
@@ -4468,7 +4831,10 @@
         "nomeEleitoral": "Delegada Ione",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220561,
@@ -4506,7 +4872,10 @@
             "https:\/\/www.instagram.com\/delegadakatarina\/",
             "https:\/\/www.youtube.com\/@delegadakatarina"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220642,
@@ -4544,7 +4913,10 @@
             "https:\/\/www.facebook.com\/profile.php",
             "https:\/\/www.instagram.com\/del.brunolima"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220673,
@@ -4583,7 +4955,10 @@
             "https:\/\/www.instagram.com\/delegadocaveira",
             "https:\/\/youtube.com\/delegadocaveira"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220649,
@@ -4622,7 +4997,10 @@
             "https:\/\/twitter.com\/DacunhaDelegado",
             "https:\/\/www.youtube.com\/@DelegadodaCunha"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178908,
@@ -4656,7 +5034,10 @@
         "nomeEleitoral": "Delegado Éder Mauro",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220583,
@@ -4695,7 +5076,10 @@
             "https:\/\/www.instagram.com\/delegadofabiocosta",
             "https:\/\/youtube.com\/channel\/UC8rTmVCfhCWa0ufzxg_cMzw"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204512,
@@ -4734,7 +5118,10 @@
             "https:\/\/www.instagram.com\/delegadomarcelofreitas",
             "https:\/\/youtube.com\/channel\/UC-YDFg5FTo1FKRkav_mD6oQ"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220701,
@@ -4772,7 +5159,10 @@
             "https:\/\/www.facebook.com\/delegadomatheuslaiola",
             "https:\/\/www.instagram.com\/delegado.matheuslaiola"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220652,
@@ -4809,7 +5199,10 @@
             "https:\/\/www.facebook.com\/delegadopalumbo",
             "https:\/\/www.instagram.com\/delegadopalumbo\/"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220654,
@@ -4843,7 +5236,10 @@
         "nomeEleitoral": "Delegado Paulo Bilynskyj",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220619,
@@ -4877,7 +5273,10 @@
         "nomeEleitoral": "Delegado Ramagem",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220553,
@@ -4911,7 +5310,10 @@
         "nomeEleitoral": "Denise Pessôa",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220689,
@@ -4949,7 +5351,10 @@
             "https:\/\/www.instagram.com\/detinhapl",
             "https:\/\/youtube.com\/detinha"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160588,
@@ -4987,7 +5392,10 @@
             "https:\/\/www.facebook.com\/diegoandrademg",
             "https:\/\/www.instagram.com\/diegoandrademg"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220691,
@@ -5021,7 +5429,10 @@
         "nomeEleitoral": "Diego Coronel",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178929,
@@ -5060,7 +5471,10 @@
             "https:\/\/www.instagram.com\/diegogarciaparana",
             "https:\/\/youtube.com\/diegogarciapr"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 73768,
@@ -5094,7 +5508,10 @@
         "nomeEleitoral": "Dilceu Sperafico",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220671,
@@ -5128,7 +5545,10 @@
         "nomeEleitoral": "Dilvanda Faro",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160599,
@@ -5162,7 +5582,10 @@
         "nomeEleitoral": "Dimas Fabiano",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220602,
@@ -5201,7 +5624,10 @@
             "https:\/\/www.instagram.com\/dimasgadelha13",
             "https:\/\/youtube.com\/channel\/UCgGSnpuEXdYKaeE7ZyPgjqw"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 143632,
@@ -5240,7 +5666,10 @@
             "https:\/\/www.instagram.com\/domingosneto",
             "https:\/\/youtube.com\/channel\/UCenz2PqXTJKnPGRVNTs0AAg"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 160758,
@@ -5274,7 +5703,10 @@
         "nomeEleitoral": "Domingos Sávio",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220573,
@@ -5312,7 +5744,10 @@
             "https:\/\/www.facebook.com\/dorinaldomalafaia",
             "https:\/\/www.instagram.com\/malafaiadorinaldo"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 227433,
@@ -5346,7 +5781,10 @@
         "nomeEleitoral": "Douglas Viegas",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204450,
@@ -5384,7 +5822,10 @@
             "https:\/\/www.facebook.com\/doutorluizinho",
             "https:\/\/www.instagram.com\/doutorluizinho"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220610,
@@ -5423,7 +5864,10 @@
             "https:\/\/www.instagram.com\/drfernandomaximo007\/",
             "https:\/\/www.youtube.com\/@DrFernandoMaximo"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220688,
@@ -5461,7 +5905,10 @@
             "https:\/\/www.facebook.com\/drfranciscopiaui",
             "https:\/\/www.instagram.com\/drfranciscopiaui"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204518,
@@ -5498,7 +5945,10 @@
             "https:\/\/www.facebook.com\/drfredericomg",
             "https:\/\/www.instagram.com\/drfredericomg"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220570,
@@ -5536,7 +5986,10 @@
             "https:\/\/www.facebook.com\/IsmaelAlexandrino",
             "https:\/\/www.instagram.com\/ismael.alexandrino"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204481,
@@ -5570,7 +6023,10 @@
         "nomeEleitoral": "Dr. Jaziel",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204351,
@@ -5609,7 +6065,10 @@
             "https:\/\/www.instagram.com\/drluizovando",
             "https:\/\/youtube.com\/channel\/UCQ1v5nEfElt-ztWZkpxZdBQ"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220528,
@@ -5648,7 +6107,10 @@
             "https:\/\/www.instagram.com\/drvictorlinhalis\/",
             "https:\/\/www.youtube.com\/channel\/UC9lrrW_04FxppALPdqqoUjw"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204412,
@@ -5686,7 +6148,10 @@
             "https:\/\/www.facebook.com\/drzachariascalil",
             "https:\/\/www.instagram.com\/drzachariascalil"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220674,
@@ -5723,7 +6188,10 @@
             "https:\/\/www.facebook.com\/draalessandrahaber",
             "https:\/\/www.instagram.com\/draalessandrahaber"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220686,
@@ -5761,7 +6229,10 @@
             "https:\/\/www.facebook.com\/ProfessorDuarteJr",
             "https:\/\/www.instagram.com\/duartejr_"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220540,
@@ -5799,7 +6270,10 @@
             "https:\/\/www.facebook.com\/dudaramos.rr",
             "https:\/\/www.instagram.com\/dudaramos.rr"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220623,
@@ -5837,7 +6311,10 @@
             "https:\/\/www.facebook.com\/DudaSalabert",
             "https:\/\/www.instagram.com\/duda_salabert"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 92346,
@@ -5871,7 +6348,10 @@
         "nomeEleitoral": "Eduardo Bolsonaro",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 141421,
@@ -5905,7 +6385,10 @@
         "nomeEleitoral": "Eduardo da Fonte",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220589,
@@ -5944,7 +6427,10 @@
             "https:\/\/www.instagram.com\/dr.eduardovelloso",
             "https:\/\/youtube.com\/channel"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74075,
@@ -5982,7 +6468,10 @@
             "http:\/\/www.facebook.com\/elcionepmdb",
             "https:\/\/www.instagram.com\/elcionebarbalho"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 204364,
@@ -6016,7 +6505,10 @@
         "nomeEleitoral": "Eli Borges",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178854,
@@ -6050,7 +6542,10 @@
         "nomeEleitoral": "Elmar Nascimento",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 218086,
@@ -6087,7 +6582,10 @@
             "https:\/\/instagram.com\/deputadafederal_elysantos?utm_medium=copy_link",
             "https:\/\/pt-br.facebook.com\/oficialelysantos\/"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 198783,
@@ -6125,7 +6623,10 @@
             "https:\/\/www.facebook.com\/emanuelpinheironeto",
             "https:\/\/www.instagram.com\/emanuelpinheironeto"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 161550,
@@ -6162,7 +6663,10 @@
             "https:\/\/www.facebook.com\/emidinhomadeira",
             "https:\/\/www.instagram.com\/emidinhomadeira"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": null
+        }
     },
     {
         "id": 225730,
@@ -6196,7 +6700,10 @@
         "nomeEleitoral": "Enfermeira Ana Paula",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 230765,
@@ -6230,7 +6737,10 @@
         "nomeEleitoral": "Enfermeira Rejane",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220663,
@@ -6264,7 +6774,10 @@
         "nomeEleitoral": "Eriberto Medeiros",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220645,
@@ -6301,7 +6814,10 @@
             "https:\/\/twitter.com\/erikakhilton",
             "https:\/\/www.instagram.com\/hilton_erika"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 160575,
@@ -6335,7 +6851,10 @@
         "nomeEleitoral": "Erika Kokay",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 160640,
@@ -6374,7 +6893,10 @@
             "https:\/\/www.facebook.com\/erosbiondini",
             "https:\/\/www.instagram.com\/ErosBiondini"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204482,
@@ -6408,7 +6930,10 @@
         "nomeEleitoral": "Euclydes Pettersen",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178871,
@@ -6445,7 +6970,10 @@
             "https:\/\/www.facebook.com\/evair.vieirademelo",
             "https:\/\/youtube.com\/channel\/UCT5EVLanh6IiCl01fzPSOBQ"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220681,
@@ -6479,7 +7007,10 @@
         "nomeEleitoral": "Fábio Macedo",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 171623,
@@ -6515,7 +7046,10 @@
         "redesSociais": [
             "https:\/\/www.facebook.com\/fabioreispsd"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204368,
@@ -6549,7 +7083,10 @@
         "nomeEleitoral": "Fabio Schiochet",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220653,
@@ -6587,7 +7124,10 @@
             "https:\/\/www.instagram.com\/fabioterueloficial",
             "https:\/\/youtube.com\/FabioTeruelOficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 66828,
@@ -6621,7 +7161,10 @@
         "nomeEleitoral": "Fausto Pinato",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220712,
@@ -6655,7 +7198,10 @@
         "nomeEleitoral": "Fausto Santos Jr.",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220646,
@@ -6694,7 +7240,10 @@
             "https:\/\/www.instagram.com\/felipebecari",
             "https:\/\/youtube.com\/channel"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 72442,
@@ -6728,7 +7277,10 @@
         "nomeEleitoral": "Felipe Carreras",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204398,
@@ -6762,7 +7314,10 @@
         "nomeEleitoral": "Felipe Francischini",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160666,
@@ -6800,7 +7355,10 @@
             "https:\/\/www.facebook.com\/felixmendoncajr",
             "https:\/\/www.instagram.com\/felixmendoncajr"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204407,
@@ -6834,7 +7392,10 @@
         "nomeEleitoral": "Fernanda Melchionna",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220656,
@@ -6868,7 +7429,10 @@
         "nomeEleitoral": "Fernanda Pessoa",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 141431,
@@ -6902,7 +7466,10 @@
         "nomeEleitoral": "Fernando Coelho Filho",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204445,
@@ -6940,7 +7507,10 @@
             "https:\/\/www.facebook.com\/fernandomineiro",
             "https:\/\/www.instagram.com\/mineiroptrn"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 92699,
@@ -6974,7 +7544,10 @@
         "nomeEleitoral": "Fernando Monteiro",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204427,
@@ -7011,7 +7584,10 @@
             "https:\/\/www.facebook.com\/FernandoRodolfoTV",
             "https:\/\/www.instagram.com\/fernandorodolfooficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204411,
@@ -7048,7 +7624,10 @@
             "https:\/\/twitter.com\/filipebarrost",
             "https:\/\/www.instagram.com\/filipebarrosoficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220545,
@@ -7086,7 +7665,10 @@
             "https:\/\/www.instagram.com\/filipemartinsto",
             "https:\/\/youtube.com\/filipemartinsto"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160598,
@@ -7123,7 +7705,10 @@
             "https:\/\/www.facebook.com\/FláviaMorais",
             "https:\/\/www.instagram.com\/flaviamorais1212"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 191923,
@@ -7162,7 +7747,10 @@
             "https:\/\/www.instagram.com\/flavionogueirapi",
             "https:\/\/youtube.com\/channel\/UCK5EmojEtDuJnbOAGHcWhiA"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220700,
@@ -7196,7 +7784,10 @@
         "nomeEleitoral": "Florentino Neto",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220551,
@@ -7230,7 +7821,10 @@
         "nomeEleitoral": "Franciane Bayer",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204494,
@@ -7268,7 +7862,10 @@
             "https:\/\/www.facebook.com\/FredCostaDEP",
             "https:\/\/www.instagram.com\/FredCostaDEP"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220534,
@@ -7307,7 +7904,10 @@
             "https:\/\/www.instagram.com\/fredlinharesbrasilia",
             "https:\/\/www.youtube.com\/@fredlinharesbrasilia\/videos"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 224117,
@@ -7344,7 +7944,10 @@
             "https:\/\/twitter.com\/gabrielmotarr",
             "https:\/\/www.facebook.com\/gabrielmotarr"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220708,
@@ -7378,7 +7981,10 @@
         "nomeEleitoral": "Gabriel Nunes",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204473,
@@ -7412,7 +8018,10 @@
         "nomeEleitoral": "General Girão",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220611,
@@ -7446,7 +8055,10 @@
         "nomeEleitoral": "General Pazuello",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178966,
@@ -7484,7 +8096,10 @@
             "https:\/\/twitter.com\/geovaniadesa?t=zlR3T1G0uVQIQSdO6omG7A&s=09",
             "https:\/\/www.facebook.com\/geovaniadesaa?mibextid=ZbWKwL"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220702,
@@ -7522,7 +8137,10 @@
             "https:\/\/www.instagram.com\/geraldomendesoficial\/?igshid=YmMyMTA2M2Y%3D",
             "https:\/\/www.youtube.com\/@geraldomendes3450"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74374,
@@ -7561,7 +8179,10 @@
             "https:\/\/www.instagram.com\/geraldoresendems",
             "https:\/\/youtube.com\/channel\/UCbnj5-ROiu04qLttEG6HNmQ"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204394,
@@ -7599,7 +8220,10 @@
             "https:\/\/www.facebook.com\/gervasiomaiapb",
             "https:\/\/www.instagram.com\/gervasiomaia"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74383,
@@ -7636,7 +8260,10 @@
             "https:\/\/www.facebook.com\/fernandogiacobo",
             "https:\/\/www.instagram.com\/fernandogiacobo"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204491,
@@ -7674,7 +8301,10 @@
             "https:\/\/www.facebook.com\/gilbertoabramo",
             "https:\/\/www.instagram.com\/gilbertoabramo_"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74270,
@@ -7708,7 +8338,10 @@
         "nomeEleitoral": "Gilberto Nascimento",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220529,
@@ -7744,7 +8377,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/gilsondaniel1919"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204365,
@@ -7783,7 +8419,10 @@
             "https:\/\/www.instagram.com\/gilson.marques.novo",
             "https:\/\/youtube.com\/gilsonmarquesnovo"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220526,
@@ -7819,7 +8458,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/gilvandafederal"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160673,
@@ -7853,7 +8495,10 @@
         "nomeEleitoral": "Giovani Cherini",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 226179,
@@ -7887,7 +8532,10 @@
         "nomeEleitoral": "Gisela Simona",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 152605,
@@ -7921,7 +8569,10 @@
         "nomeEleitoral": "Glauber Braga",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 198197,
@@ -7960,7 +8611,10 @@
             "https:\/\/www.instagram.com\/greyceelias",
             "https:\/\/youtube.com\/channel\/UCcSZxLiSfO1dFmAryUnxPHg"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220639,
@@ -7999,7 +8653,10 @@
             "https:\/\/www.instagram.com\/guilhermeboulos.oficial",
             "https:\/\/www.youtube.com\/@GuilhermeBoulosoficial"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220664,
@@ -8035,7 +8692,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/GUILHERMEUCHOAJR"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220568,
@@ -8074,7 +8734,10 @@
             "https:\/\/www.instagram.com\/gusgayer",
             "https:\/\/youtube.com\/GustavoGayer"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204408,
@@ -8108,7 +8771,10 @@
         "nomeEleitoral": "Gustinho Ribeiro",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204456,
@@ -8142,7 +8808,10 @@
         "nomeEleitoral": "Gutemberg Reis",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178964,
@@ -8180,7 +8849,10 @@
             "https:\/\/www.facebook.com\/heitorschuchoficial",
             "https:\/\/www.instagram.com\/heitorschuch"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 178873,
@@ -8214,7 +8886,10 @@
         "nomeEleitoral": "Helder Salomão",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220537,
@@ -8251,7 +8926,10 @@
             "https:\/\/twitter.com\/helenadaasatur",
             "https:\/\/www.instagram.com\/helenadaasatur"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204444,
@@ -8289,7 +8967,10 @@
             "https:\/\/www.facebook.com\/depheliolopes",
             "https:\/\/www.instagram.com\/depheliolopes"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220672,
@@ -8323,7 +9004,10 @@
         "nomeEleitoral": "Henderson Pinto",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204539,
@@ -8362,7 +9046,10 @@
             "https:\/\/www.instagram.com\/herciliocoelhodinizoficial",
             "https:\/\/youtube.com\/HercílioCoelhoDinizOficial"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178884,
@@ -8396,7 +9083,10 @@
         "nomeEleitoral": "Hildo Rocha",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 141450,
@@ -8433,7 +9123,10 @@
             "https:\/\/twitter.com\/dephugoleal",
             "https:\/\/www.instagram.com\/dephugoleal"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160674,
@@ -8467,7 +9160,10 @@
         "nomeEleitoral": "Hugo Motta",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220563,
@@ -8504,7 +9200,10 @@
             "https:\/\/twitter.com\/icarodevalmir",
             "https:\/\/www.instagram.com\/icarodevalmir"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 204508,
@@ -8542,7 +9241,10 @@
             "https:\/\/www.facebook.com\/oficialigortimo",
             "https:\/\/www.instagram.com\/oficialigortimo"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": "Sim"
+        }
     },
     {
         "id": 98615,
@@ -8580,7 +9282,10 @@
             "https:\/\/www.facebook.com\/deputadoismael",
             "https:\/\/www.instagram.com\/deputadoismael"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204436,
@@ -8618,7 +9323,10 @@
             "https:\/\/www.facebook.com\/isnaldobulhoesjr",
             "https:\/\/www.instagram.com\/isnaldobulhoes"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 73531,
@@ -8652,7 +9360,10 @@
         "nomeEleitoral": "Ivan Valente",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220696,
@@ -8691,7 +9402,10 @@
             "https:\/\/www.instagram.com\/ivoneidecaetanooficial",
             "https:\/\/youtube.com\/channel\/UCG1OT1V0SGnvBIf_RRicnpg"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220670,
@@ -8728,7 +9442,10 @@
             "https:\/\/www.facebook.com\/izaarrudape",
             "https:\/\/www.instagram.com\/izaarrudape"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 220527,
@@ -8762,7 +9479,10 @@
         "nomeEleitoral": "Jack Rocha",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220697,
@@ -8796,7 +9516,10 @@
         "nomeEleitoral": "Jadyel Alencar",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74848,
@@ -8830,7 +9553,10 @@
         "nomeEleitoral": "Jandira Feghali",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220567,
@@ -8864,7 +9590,10 @@
         "nomeEleitoral": "Jeferson Rodrigues",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74273,
@@ -8903,7 +9632,10 @@
             "https:\/\/www.instagram.com\/depjefferson",
             "https:\/\/youtube.com\/DepJeffersonCampos"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 141456,
@@ -8937,7 +9669,10 @@
         "nomeEleitoral": "Jilmar Tatto",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 141458,
@@ -8973,7 +9708,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/joaobacelaroficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 230957,
@@ -9007,7 +9745,10 @@
         "nomeEleitoral": "João Cury",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178970,
@@ -9046,7 +9787,10 @@
             "https:\/\/www.instagram.com\/deputadojoaodaniel",
             "https:\/\/youtube.com\/deputadojoaodaniel"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 74550,
@@ -9080,7 +9824,10 @@
         "nomeEleitoral": "João Leão",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 141459,
@@ -9114,7 +9861,10 @@
         "nomeEleitoral": "João Maia",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178910,
@@ -9152,7 +9902,10 @@
             "https:\/\/www.facebook.com\/joaquimpassarinhooficial",
             "https:\/\/www.instagram.com\/joaquim_passarinho"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160548,
@@ -9190,7 +9943,10 @@
             "https:\/\/www.facebook.com\/jonasdonizette",
             "https:\/\/www.instagram.com\/jonasdonizette\/"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 205550,
@@ -9229,7 +9985,10 @@
             "https:\/\/www.instagram.com\/jorge_braz",
             "https:\/\/youtube.com\/VEREADORJORGEBRAZ"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 214694,
@@ -9267,7 +10026,10 @@
             "https:\/\/www.facebook.com\/Jorgegoettenminister",
             "https:\/\/www.instagram.com\/jorgegoetten"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178857,
@@ -9301,7 +10063,10 @@
         "nomeEleitoral": "Jorge Solla",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 141464,
@@ -9339,7 +10104,10 @@
             "https:\/\/www.facebook.com\/Joseairtoncirilo",
             "https:\/\/www.instagram.com\/Joseairtoncirilo"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 141470,
@@ -9373,7 +10141,10 @@
         "nomeEleitoral": "José Guimarães",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": null
+        }
     },
     {
         "id": 204472,
@@ -9407,7 +10178,10 @@
         "nomeEleitoral": "José Medeiros",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204391,
@@ -9445,7 +10219,10 @@
             "https:\/\/www.facebook.com\/joseneltopodemos",
             "https:\/\/www.instagram.com\/joseneltooficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74079,
@@ -9479,7 +10256,10 @@
         "nomeEleitoral": "José Priante",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74554,
@@ -9513,7 +10293,10 @@
         "nomeEleitoral": "José Rocha",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 209189,
@@ -9551,7 +10334,10 @@
             "https:\/\/www.facebook.com\/deputadojoseildoramos",
             "https:\/\/www.instagram.com\/joseildoramos"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220578,
@@ -9587,7 +10373,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/josenildoap_"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": null
+        }
     },
     {
         "id": 74141,
@@ -9621,7 +10410,10 @@
         "nomeEleitoral": "Josias Gomes",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204563,
@@ -9655,7 +10447,10 @@
         "nomeEleitoral": "Josimar Maranhãozinho",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 215043,
@@ -9692,7 +10487,10 @@
             "https:\/\/www.facebook.com\/deputadojosivaldojp\/",
             "https:\/\/www.instagram.com\/jpdeputado\/"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204474,
@@ -9731,7 +10529,10 @@
             "https:\/\/www.instagram.com\/juarezcostamt",
             "https:\/\/www.youtube.com\/channel\/UCKKA7s-2Lo6xKtZlgahT-aA"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220559,
@@ -9770,7 +10571,10 @@
             "https:\/\/www.instagram.com\/juliazanattasc",
             "https:\/\/youtube.com\/channel\/UC-xMxlTPP-xGmOry0wx2sxw"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220640,
@@ -9809,7 +10613,10 @@
             "https:\/\/www.instagram.com\/julianacardoso_pt",
             "https:\/\/youtube.com\/julianacardosopt"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 66385,
@@ -9848,7 +10655,10 @@
             "https:\/\/www.instagram.com\/julioarcoverde",
             "https:\/\/youtube.com\/julioarcoverde"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74317,
@@ -9887,7 +10697,10 @@
             "https:\/\/www.instagram.com\/deputadojuliocesar",
             "https:\/\/youtube.com\/deputadojuliocesarpi"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204372,
@@ -9926,7 +10739,10 @@
             "https:\/\/www.instagram.com\/juliocesarribeiro",
             "https:\/\/youtube.com\/JulioCesarRibeiro"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74253,
@@ -9964,7 +10780,10 @@
             "https:\/\/www.instagram.com\/juliolopes_rio\/",
             "https:\/\/youtube.com\/JulioLopesRio"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204457,
@@ -10001,7 +10820,10 @@
             "https:\/\/www.facebook.com\/juninhodopneu01",
             "https:\/\/www.instagram.com\/juninhodopneu"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204520,
@@ -10039,7 +10861,10 @@
             "https:\/\/www.facebook.com\/cabojunioamaral",
             "https:\/\/www.instagram.com\/junioamaraldm"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204497,
@@ -10073,7 +10898,10 @@
         "nomeEleitoral": "Júnior Ferrari",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204574,
@@ -10109,7 +10937,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/juniorlourenco2200"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204550,
@@ -10148,7 +10979,10 @@
             "https:\/\/www.instagram.com\/juniormanodep",
             "https:\/\/youtube.com\/deputadojuniormano"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178886,
@@ -10182,7 +11016,10 @@
         "nomeEleitoral": "Juscelino Filho",
         "descricaoStatus": "Of. s\/n\/2025, de 9\/4\/2025, Dep. Juscelino Filho",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220677,
@@ -10220,7 +11057,10 @@
             "https:\/\/www.instagram.com\/kenistonoficial\/",
             "https:\/\/www.youtube.com\/c\/KenistonOficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": null
+        }
     },
     {
         "id": 162067,
@@ -10259,7 +11099,10 @@
             "https:\/\/www.instagram.com\/kiko.celeguim",
             "https:\/\/youtube.com\/KikoCeleguimoficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204536,
@@ -10298,7 +11141,10 @@
             "https:\/\/www.instagram.com\/kimkataguiri",
             "https:\/\/youtube.com\/kimkataguiri"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 98057,
@@ -10337,7 +11183,10 @@
             "https:\/\/www.instagram.com\/lafayetteandrada",
             "https:\/\/youtube.com\/channel\/UC5f8X2JAnafqV7bPLmDeZGw"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74856,
@@ -10371,7 +11220,10 @@
         "nomeEleitoral": "Laura Carneiro",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220566,
@@ -10405,7 +11257,10 @@
         "nomeEleitoral": "Lêda Borges",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 231911,
@@ -10443,7 +11298,10 @@
             "https:\/\/www.facebook.com\/lenirdassis",
             "https:\/\/www.instagram.com\/lenirdeassis"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 80815,
@@ -10481,7 +11339,10 @@
             "https:\/\/www.facebook.com\/leo.prates.7",
             "https:\/\/www.instagram.com\/leoprates"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74156,
@@ -10515,7 +11376,10 @@
         "nomeEleitoral": "Leonardo Monteiro",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Não"
+        }
     },
     {
         "id": 74299,
@@ -10553,7 +11417,10 @@
             "https:\/\/www.facebook.com\/leonidascristinooficial",
             "https:\/\/www.instagram.com\/leonidas.cristino"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 92102,
@@ -10591,7 +11458,10 @@
             "https:\/\/www.facebook.com\/leurlomantojr\/",
             "https:\/\/www.instagram.com\/leurlomantojr"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 139285,
@@ -10628,7 +11498,10 @@
             "https:\/\/twitter.com\/lidicedamata",
             "https:\/\/www.instagram.com\/lidicedamata"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 74585,
@@ -10662,7 +11535,10 @@
         "nomeEleitoral": "Lincoln Portela",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74858,
@@ -10696,7 +11572,10 @@
         "nomeEleitoral": "Lindbergh Farias",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220662,
@@ -10734,7 +11613,10 @@
             "https:\/\/www.facebook.com\/lucasramosoficial",
             "https:\/\/www.instagram.com\/lucasramospe"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204404,
@@ -10773,7 +11655,10 @@
             "https:\/\/twitter.com\/lucasredecker",
             "https:\/\/youtube.com\/user\/lucasredecker"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 138286,
@@ -10810,7 +11695,10 @@
             "https:\/\/www.facebook.com\/deputadolucianoalves",
             "https:\/\/www.instagram.com\/deputadolucianoalves"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220581,
@@ -10844,7 +11732,10 @@
         "nomeEleitoral": "Luciano Amaral",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74478,
@@ -10878,7 +11769,10 @@
         "nomeEleitoral": "Luciano Bivar",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178931,
@@ -10912,7 +11806,10 @@
         "nomeEleitoral": "Luciano Ducci",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220616,
@@ -10946,7 +11843,10 @@
         "nomeEleitoral": "Luciano Vieira",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178954,
@@ -10984,7 +11884,10 @@
             "https:\/\/www.instagram.com\/luciomosquini",
             "https:\/\/youtube.com\/lucioantoniomosquinimosqui7885"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": null
+        }
     },
     {
         "id": 222429,
@@ -11018,7 +11921,10 @@
         "nomeEleitoral": "Luis Carlos Gomes",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160510,
@@ -11057,7 +11963,10 @@
             "https:\/\/www.instagram.com\/deputadoluistibe\/",
             "https:\/\/www.youtube.com\/watch?v=BuVmJsuVjuY"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204410,
@@ -11091,7 +12000,10 @@
         "nomeEleitoral": "Luisa Canziani",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204448,
@@ -11125,7 +12037,10 @@
         "nomeEleitoral": "Luiz Antonio Corrêa",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 141485,
@@ -11164,7 +12079,10 @@
             "https:\/\/www.instagram.com\/lcbusato",
             "https:\/\/youtube.com\/channel\/UCI1WRKDHZA-6HQwN5_yWypw"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 73778,
@@ -11201,7 +12119,10 @@
             "https:\/\/twitter.com\/deputadoHauly",
             "https:\/\/www.instagram.com\/deputadohauly"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204485,
@@ -11240,7 +12161,10 @@
             "https:\/\/www.instagram.com\/deputadomotta",
             "https:\/\/www.youtube.com\/@DeputadoMotta"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74041,
@@ -11274,7 +12198,10 @@
         "nomeEleitoral": "Luiz Couto",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 141487,
@@ -11308,7 +12235,10 @@
         "nomeEleitoral": "Luiz Fernando Faria",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 229432,
@@ -11344,7 +12274,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/luizfernandovampiro"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220658,
@@ -11378,7 +12311,10 @@
         "nomeEleitoral": "Luiz Gastão",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204455,
@@ -11417,7 +12353,10 @@
             "https:\/\/www.instagram.com\/oficialluizlima",
             "https:\/\/youtube.com\/oficialluizlima"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 162332,
@@ -11451,7 +12390,10 @@
         "nomeEleitoral": "Luiz Nishimori",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204526,
@@ -11490,7 +12432,10 @@
             "https:\/\/www.instagram.com\/lpbragancabr",
             "https:\/\/youtube.com\/luizphilippebr"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": null
+        }
     },
     {
         "id": 74784,
@@ -11524,7 +12469,10 @@
         "nomeEleitoral": "Luiza Erundina",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 178866,
@@ -11560,7 +12508,10 @@
         "redesSociais": [
             "https:\/\/twitter.com\/luiziannelinsPT"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": null
+        }
     },
     {
         "id": 220669,
@@ -11594,7 +12545,10 @@
         "nomeEleitoral": "Lula da Fonte",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 166402,
@@ -11632,7 +12586,10 @@
             "https:\/\/www.facebook.com\/MagdaMofatto.Goias",
             "https:\/\/www.instagram.com\/magdamofatto.goias"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220648,
@@ -11671,7 +12628,10 @@
             "https:\/\/www.instagram.com\/marangoni.oficial",
             "https:\/\/www.youtube.com\/@fernandomarangoni99\/"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 156190,
@@ -11710,7 +12670,10 @@
             "https:\/\/www.instagram.com\/MARCELVANHATTEM",
             "https:\/\/youtube.com\/channel\/UCAGHY76tgzPiiXpJtM1sVCg"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 179000,
@@ -11748,7 +12711,10 @@
             "https:\/\/www.facebook.com\/marceloalvaroantonio",
             "https:\/\/www.instagram.com\/marceloalvaroantonio"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220599,
@@ -11782,7 +12748,10 @@
         "nomeEleitoral": "Marcelo Crivella",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 133810,
@@ -11816,7 +12785,10 @@
         "nomeEleitoral": "Marcelo Moraes",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178983,
@@ -11850,7 +12822,10 @@
         "nomeEleitoral": "Marcio Alvino",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 179001,
@@ -11884,7 +12859,10 @@
         "nomeEleitoral": "Márcio Biolchi",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220687,
@@ -11922,7 +12900,10 @@
             "https:\/\/www.facebook.com\/marciohonaiser\/",
             "https:\/\/www.instagram.com\/marciohonaiser\/"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 81055,
@@ -11961,7 +12942,10 @@
             "https:\/\/www.instagram.com\/marciojerry",
             "https:\/\/youtube.com\/marciojerry"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 150418,
@@ -12000,7 +12984,10 @@
             "https:\/\/www.instagram.com\/deputadomarciomarinho",
             "https:\/\/youtube.com\/channel\/UCx3t_YQx8H-93UD5k9Mt1lQ"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160535,
@@ -12038,7 +13025,10 @@
             "https:\/\/twitter.com\/deputadomarcon",
             "https:\/\/www.facebook.com\/deputadomarcon"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204431,
@@ -12072,7 +13062,10 @@
         "nomeEleitoral": "Marcos Aurélio Sampaio",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204506,
@@ -12111,7 +13104,10 @@
             "https:\/\/www.instagram.com\/marcospereira1010",
             "https:\/\/youtube.com\/marcospereira0404"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220547,
@@ -12150,7 +13146,10 @@
             "https:\/\/www.instagram.com\/pollonms",
             "https:\/\/youtube.com\/channel\/UC8ioF4r2QoAp5mMp1epPAsg"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178943,
@@ -12184,7 +13183,10 @@
         "nomeEleitoral": "Marcos Soares",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220604,
@@ -12221,7 +13223,10 @@
             "https:\/\/www.facebook.com\/oficialmarcostavares",
             "https:\/\/www.instagram.com\/oficialmarcostavares"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220668,
@@ -12259,7 +13264,10 @@
             "https:\/\/www.facebook.com\/\/mariaarraespe",
             "https:\/\/www.instagram.com\/mariaarraes"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 74398,
@@ -12297,7 +13305,10 @@
             "https:\/\/www.facebook.com\/DeputadaMariaDoRosario",
             "https:\/\/www.instagram.com\/_mariadorosario"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204540,
@@ -12336,7 +13347,10 @@
             "https:\/\/www.instagram.com\/mariarosas.oficial",
             "https:\/\/youtube.com\/channel\/UCWIJ_PIc4AsfR_LlBxSILSA"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220655,
@@ -12373,7 +13387,10 @@
             "https:\/\/twitter.com\/mfriasoficial",
             "https:\/\/www.instagram.com\/mariofriasoficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74158,
@@ -12407,7 +13424,10 @@
         "nomeEleitoral": "Mário Heringer",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178858,
@@ -12443,7 +13463,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/marionegromontejr"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204566,
@@ -12481,7 +13504,10 @@
             "https:\/\/www.facebook.com\/depmarrecafilho",
             "https:\/\/www.instagram.com\/depmarrecafilho"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220572,
@@ -12519,7 +13545,10 @@
             "https:\/\/www.facebook.com\/marussaboldrin.go",
             "https:\/\/www.instagram.com\/marussa.boldrin"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178843,
@@ -12553,7 +13582,10 @@
         "nomeEleitoral": "Marx Beltrão",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220661,
@@ -12587,7 +13619,10 @@
         "nomeEleitoral": "Matheus Noronha",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220609,
@@ -12621,7 +13656,10 @@
         "nomeEleitoral": "Maurício Carvalho",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220628,
@@ -12659,7 +13697,10 @@
             "https:\/\/www.facebook.com\/mauriciodovolei",
             "https:\/\/www.instagram.com\/mauriciodovolei"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220550,
@@ -12693,7 +13734,10 @@
         "nomeEleitoral": "Mauricio Marcon",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220647,
@@ -12732,7 +13776,10 @@
             "https:\/\/www.instagram.com\/mauricioneves_oficial",
             "https:\/\/youtube.com\/mauricioneves9642"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204486,
@@ -12769,7 +13816,10 @@
             "https:\/\/twitter.com\/mauro_bfilho",
             "https:\/\/www.instagram.com\/mauro_benevidesfilho"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220607,
@@ -12808,7 +13858,10 @@
             "https:\/\/www.instagram.com\/maxlemosoficial",
             "https:\/\/youtube.com\/@maxlemos9960"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220591,
@@ -12846,7 +13899,10 @@
             "https:\/\/www.facebook.com\/dep.meireserafim",
             "https:\/\/www.instagram.com\/dep.meireserafim"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74428,
@@ -12880,7 +13936,10 @@
         "nomeEleitoral": "Mendonça Filho",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 188097,
@@ -12914,7 +13973,10 @@
         "nomeEleitoral": "Merlong Solano",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220585,
@@ -12948,7 +14010,10 @@
         "nomeEleitoral": "Mersinho Lucena",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": null
+        }
     },
     {
         "id": 220530,
@@ -12987,7 +14052,10 @@
             "https:\/\/www.instagram.com\/messiasdonato",
             "https:\/\/youtube.com\/channel\/UCzw1O2NLEynTs9dm3X2AILA"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 171786,
@@ -13025,7 +14093,10 @@
             "https:\/\/www.facebook.com\/MiguelÂngelo",
             "https:\/\/www.instagram.com\/miguelangelomg13"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": "Não"
+        }
     },
     {
         "id": 178985,
@@ -13062,7 +14133,10 @@
             "https:\/\/www.instagram.com\/dep.miguellombardi",
             "https:\/\/youtube.com\/channel\/UCzP0L6ymrNXOBJuOpflBwgA"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178895,
@@ -13099,7 +14173,10 @@
             "https:\/\/www.facebook.com\/deputadomisaelvarella",
             "https:\/\/www.instagram.com\/misaelvarella"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": null
+        }
     },
     {
         "id": 160561,
@@ -13133,7 +14210,10 @@
         "nomeEleitoral": "Missionário José Olimpio",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178997,
@@ -13171,7 +14251,10 @@
             "https:\/\/www.facebook.com\/MosesRodriguesOficial",
             "https:\/\/www.instagram.com\/mosesrodriguesoficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220617,
@@ -13209,7 +14292,10 @@
             "https:\/\/www.facebook.com\/murillogouvea.rj",
             "https:\/\/www.instagram.com\/murillogouvea.rj"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220584,
@@ -13246,7 +14332,10 @@
             "https:\/\/twitter.com\/Murilogaldinopb",
             "https:\/\/www.facebook.com\/murilogaldinopb"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204453,
@@ -13285,7 +14374,10 @@
             "https:\/\/www.instagram.com\/nataliabonavides",
             "https:\/\/youtube.com\/channel\/UC4SZ1UNy6t9Mz99In-Rt1tw"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 233218,
@@ -13319,7 +14411,10 @@
         "nomeEleitoral": "Nelinho Freitas",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204449,
@@ -13357,7 +14452,10 @@
             "https:\/\/www.instagram.com\/nelsonbarbudo",
             "https:\/\/youtube.com\/channel\/UC2wzaVfyw_DJ7Dw8vMqNoCw"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220622,
@@ -13395,7 +14493,10 @@
             "https:\/\/www.instagram.com\/nelyaquinooficial",
             "https:\/\/youtube.com\/NelyAquino"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220703,
@@ -13433,7 +14534,10 @@
             "https:\/\/www.facebook.com\/netocarletto",
             "https:\/\/www.instagram.com\/netocarletto"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178896,
@@ -13467,7 +14571,10 @@
         "nomeEleitoral": "Newton Cardoso Jr",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204479,
@@ -13506,7 +14613,10 @@
             "https:\/\/www.instagram.com\/deputadonicoletti",
             "https:\/\/youtube.com\/DeputadoNicoletti"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 209787,
@@ -13544,7 +14654,10 @@
             "https:\/\/www.instagram.com\/nikolasferreiradm\/",
             "https:\/\/www.youtube.com\/@NikolasFerreiraO"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178986,
@@ -13578,7 +14691,10 @@
         "nomeEleitoral": "Nilto Tatto",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 74159,
@@ -13616,7 +14732,10 @@
             "https:\/\/www.facebook.com\/odaircunhamg",
             "https:\/\/www.instagram.com\/odaircunhamg"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204498,
@@ -13654,7 +14773,10 @@
             "https:\/\/www.facebook.com\/OlivalMarquesOficial",
             "https:\/\/www.instagram.com\/OlivalMarques"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178987,
@@ -13692,7 +14814,10 @@
             "https:\/\/www.facebook.com\/orlandosilvasp",
             "https:\/\/www.instagram.com\/orlandosilvasp"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 73692,
@@ -13731,7 +14856,10 @@
             "https:\/\/www.instagram.com\/terra.osmar",
             "https:\/\/youtube.com\/channel\/UCZdKvhFxyXQm-JmyvHUYojA"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204422,
@@ -13769,7 +14897,10 @@
             "https:\/\/www.facebook.com\/ossesio.silva",
             "https:\/\/www.instagram.com\/ossesio.silva"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204441,
@@ -13807,7 +14938,10 @@
             "https:\/\/www.facebook.com\/OtoniDeputadoFederal",
             "https:\/\/www.instagram.com\/otonidepaulaoficial"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204573,
@@ -13845,7 +14979,10 @@
             "https:\/\/www.facebook.com\/otto.filho.oficial",
             "https:\/\/www.instagram.com\/ottofilho.oficial"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220706,
@@ -13882,7 +15019,10 @@
             "https:\/\/twitter.com\/padovanidep",
             "https:\/\/www.instagram.com\/nelsinhopadovani"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160556,
@@ -13921,7 +15061,10 @@
             "https:\/\/www.instagram.com\/dep_padrejoao",
             "https:\/\/youtube.com\/channel\/UC3xn6en0oZZdxt56VW8PS9A"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 230762,
@@ -13955,7 +15098,10 @@
         "nomeEleitoral": "Pastor Claudio Mariano",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 180214,
@@ -13992,7 +15138,10 @@
             "https:\/\/www.facebook.com\/pr.diniz.rr",
             "https:\/\/www.instagram.com\/pastordiniz.ad"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160642,
@@ -14026,7 +15175,10 @@
         "nomeEleitoral": "Pastor Eurico",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204570,
@@ -14063,7 +15215,10 @@
             "https:\/\/www.facebook.com\/deputadopastorgil",
             "https:\/\/www.instagram.com\/deputadogildenemyr"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220615,
@@ -14102,7 +15257,10 @@
             "https:\/\/www.instagram.com\/pastorhenriquevieira",
             "https:\/\/youtube.com\/PastorHenriqueVieira"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204553,
@@ -14139,7 +15297,10 @@
             "https:\/\/www.facebook.com\/pastorisidorio",
             "https:\/\/www.instagram.com\/pastorsargentoisidorio"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 74160,
@@ -14173,7 +15334,10 @@
         "nomeEleitoral": "Patrus Ananias",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 74095,
@@ -14209,7 +15373,10 @@
         "redesSociais": [
             "http:\/\/www.twitter.com\/pauderney"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 171617,
@@ -14243,7 +15410,10 @@
         "nomeEleitoral": "Paulão",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 141518,
@@ -14277,7 +15447,10 @@
         "nomeEleitoral": "Paulinho da Força",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 141516,
@@ -14311,7 +15484,10 @@
         "nomeEleitoral": "Paulo Abi-Ackel",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220650,
@@ -14349,7 +15525,10 @@
             "https:\/\/www.facebook.com\/pauloalexandrebarbosapsdb",
             "https:\/\/www.instagram.com\/pauloalexandrebarbosa"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 178860,
@@ -14387,7 +15566,10 @@
             "https:\/\/www.facebook.com\/PauloAzi",
             "https:\/\/www.instagram.com\/PauloAziofcial"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160517,
@@ -14425,7 +15607,10 @@
             "https:\/\/www.facebook.com\/foletto.paulo",
             "https:\/\/www.instagram.com\/paulo.folletto"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160558,
@@ -14459,7 +15644,10 @@
         "nomeEleitoral": "Paulo Freire Costa",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204492,
@@ -14493,7 +15681,10 @@
         "nomeEleitoral": "Paulo Guedes",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 233592,
@@ -14532,7 +15723,10 @@
             "https:\/\/www.instagram.com\/paulolemosap",
             "https:\/\/youtube.com\/channel\/UCPt5rQPkiVFL3kskxR0CP7Q"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220685,
@@ -14566,7 +15760,10 @@
         "nomeEleitoral": "Paulo Litro",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74574,
@@ -14600,7 +15797,10 @@
         "nomeEleitoral": "Paulo Magalhães",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74400,
@@ -14634,7 +15834,10 @@
         "nomeEleitoral": "Paulo Pimenta",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220630,
@@ -14672,7 +15875,10 @@
             "https:\/\/www.facebook.com\/pedroaiharaoficial",
             "https:\/\/www.instagram.com\/pedroaihara"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220667,
@@ -14709,7 +15915,10 @@
             "https:\/\/www.facebook.com\/pedrocampospe",
             "https:\/\/www.instagram.com\/pedrocampospe"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 122974,
@@ -14743,7 +15952,10 @@
         "nomeEleitoral": "Pedro Lucas Fernandes",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204395,
@@ -14781,7 +15993,10 @@
             "https:\/\/www.facebook.com\/pedrolupion",
             "https:\/\/www.instagram.com\/pedrolupion"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 122158,
@@ -14815,7 +16030,10 @@
         "nomeEleitoral": "Pedro Paulo",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160604,
@@ -14849,7 +16067,10 @@
         "nomeEleitoral": "Pedro Uczai",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204406,
@@ -14883,7 +16104,10 @@
         "nomeEleitoral": "Pedro Westphalen",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 161440,
@@ -14921,7 +16145,10 @@
             "https:\/\/www.facebook.com\/deputadopezenti",
             "https:\/\/www.instagram.com\/deputadopezenti"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204524,
@@ -14960,7 +16187,10 @@
             "https:\/\/www.instagram.com\/pinheirinhomg",
             "https:\/\/youtube.com\/channel\/UCrsQcx5F8S_gHJTpfiE8FfA"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 73486,
@@ -14999,7 +16229,10 @@
             "https:\/\/www.instagram.com\/pompeodemattospdt",
             "https:\/\/youtube.com\/PompeodeMattos"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": null
+        }
     },
     {
         "id": 160601,
@@ -15033,7 +16266,10 @@
         "nomeEleitoral": "Pr. Marco Feliciano",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220533,
@@ -15072,7 +16308,10 @@
             "https:\/\/www.instagram.com\/reginaldo.veras",
             "https:\/\/youtube.com\/Reginaldoveras12"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204390,
@@ -15110,7 +16349,10 @@
             "https:\/\/www.instagram.com\/professoralcidesoficial",
             "https:\/\/youtube.com\/DeputadoProfessorAlcides"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 221338,
@@ -15144,7 +16386,10 @@
         "nomeEleitoral": "Professora Luciene Cavalcante",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 160641,
@@ -15182,7 +16427,10 @@
             "https:\/\/www.facebook.com\/profmarcivania",
             "https:\/\/www.instagram.com\/profmarcivania"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220586,
@@ -15219,7 +16467,10 @@
             "https:\/\/www.instagram.com\/rafaelbrito15",
             "https:\/\/youtube.com\/channel\/UCq3xwtJvyjdU-ceUhWg-lPg"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": null
+        }
     },
     {
         "id": 233594,
@@ -15253,7 +16504,10 @@
         "nomeEleitoral": "Rafael Fera",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220532,
@@ -15292,7 +16546,10 @@
             "https:\/\/www.instagram.com\/rafaelprudentedep",
             "https:\/\/youtube.com\/RafaelPrudente"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220626,
@@ -15330,7 +16587,10 @@
             "https:\/\/www.facebook.com\/rafaelsimoesmg",
             "https:\/\/www.instagram.com\/rafaelsimoesmg"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204567,
@@ -15367,7 +16627,10 @@
             "https:\/\/twitter.com\/raimundocostaba",
             "https:\/\/www.facebook.com\/oficialraimundocosta"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74084,
@@ -15406,7 +16669,10 @@
             "https:\/\/www.instagram.com\/depraimundosantos\/",
             "https:\/\/youtube.com\/channel\/UCDl2RREU083fkW3AR1PC3OQ"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74161,
@@ -15444,7 +16710,10 @@
             "https:\/\/www.facebook.com\/reginaldolopesmg",
             "https:\/\/youtube.com\/channel\/UCKrXcydte7lEBDWVoogEptw"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220606,
@@ -15478,7 +16747,10 @@
         "nomeEleitoral": "Reimont",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 205865,
@@ -15512,7 +16784,10 @@
         "nomeEleitoral": "Reinhold Stephanes",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178989,
@@ -15546,7 +16821,10 @@
         "nomeEleitoral": "Renata Abreu",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 153423,
@@ -15584,7 +16862,10 @@
             "https:\/\/www.facebook.com\/renilcenicodemos",
             "https:\/\/www.instagram.com\/renilcenicodemoss"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 73801,
@@ -15618,7 +16899,10 @@
         "nomeEleitoral": "Renildo Calheiros",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 175765,
@@ -15654,7 +16938,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/ribamarsilvaoficial"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 221329,
@@ -15692,7 +16979,10 @@
             "https:\/\/www.facebook.com\/ricardoabraooficial",
             "https:\/\/www.instagram.com\/ricardoabraooficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220543,
@@ -15730,7 +17020,10 @@
             "https:\/\/www.facebook.com\/ricardoayres.to",
             "https:\/\/www.instagram.com\/ricardoayres_to"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 73788,
@@ -15764,7 +17057,10 @@
         "nomeEleitoral": "Ricardo Barros",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204362,
@@ -15802,7 +17098,10 @@
             "https:\/\/www.facebook.com\/deputadoricardoguidi",
             "https:\/\/www.instagram.com\/ricardozguidi"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220694,
@@ -15841,7 +17140,10 @@
             "https:\/\/www.instagram.com\/ricardomaia.dabahia",
             "https:\/\/youtube.com\/ricardomaiadabahia5610"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220633,
@@ -15875,7 +17177,10 @@
         "nomeEleitoral": "Ricardo Salles",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 204489,
@@ -15911,7 +17216,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/dep.roberiomonteiro"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220693,
@@ -15945,7 +17253,10 @@
         "nomeEleitoral": "Roberta Roma",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220588,
@@ -15983,7 +17294,10 @@
             "https:\/\/www.facebook.com\/robertoduartenarede",
             "https:\/\/www.instagram.com\/rdnarede"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220613,
@@ -16017,7 +17331,10 @@
         "nomeEleitoral": "Roberto Monteiro Pai",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220624,
@@ -16051,7 +17368,10 @@
         "nomeEleitoral": "Robinson Faria",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220546,
@@ -16090,7 +17410,10 @@
             "https:\/\/www.facebook.com\/rodolfonogueiraoficial",
             "https:\/\/youtube.com\/RodolfoNogueirams"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 230767,
@@ -16124,7 +17447,10 @@
         "nomeEleitoral": "Rodrigo da Zaeli",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 141531,
@@ -16162,7 +17488,10 @@
             "http:\/\/www.facebook.com\/pages\/deputado-federal-Rodrigo-de-Castro\/124002814371381",
             "http:\/\/www.youtube.com\/rodrigocastro45"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 223128,
@@ -16196,7 +17525,10 @@
         "nomeEleitoral": "Rodrigo Estacho",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220641,
@@ -16233,7 +17565,10 @@
             "https:\/\/www.facebook.com\/RodrigoGambale",
             "https:\/\/www.instagram.com\/rodrigogambale"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 141533,
@@ -16267,7 +17602,10 @@
         "nomeEleitoral": "Rodrigo Rollemberg",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 165470,
@@ -16306,7 +17644,10 @@
             "https:\/\/www.instagram.com\/rodrigovaladares_",
             "https:\/\/youtube.com\/deputadorodrigovaladares1954"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220695,
@@ -16345,7 +17686,10 @@
             "https:\/\/www.instagram.com\/rogeriasantosoficial",
             "https:\/\/youtube.com\/channel\/UCWe-7aMx_Q87rZIbh7ccbyw"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204480,
@@ -16384,7 +17728,10 @@
             "https:\/\/www.instagram.com\/rogeriocorreia_",
             "https:\/\/youtube.com\/channel\/UC6AVYYHC-GswIhS2xlYUb5g"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 160629,
@@ -16423,7 +17770,10 @@
             "https:\/\/www.instagram.com\/romerorodriguespb",
             "https:\/\/youtube.com\/romerorodriguespb"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 163321,
@@ -16462,7 +17812,10 @@
             "https:\/\/www.instagram.com\/ronaldonogueirarnoficial",
             "https:\/\/youtube.com\/channel\/UC7-J9zAGVFt0FH_cqUlb0GA"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204525,
@@ -16501,7 +17854,10 @@
             "https:\/\/www.instagram.com\/rosanavalleoficial",
             "https:\/\/youtube.com\/channel\/UCoiIg7-jlQtJX3CCgOceQbA"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220644,
@@ -16540,7 +17896,10 @@
             "https:\/\/www.instagram.com\/rosangelawmoro",
             "https:\/\/youtube.com\/channel\/UC5X-86dz8GEf6QGMm95ZoAA"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220620,
@@ -16576,7 +17935,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/rosangelareis.mg"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74371,
@@ -16610,7 +17972,10 @@
         "nomeEleitoral": "Rubens Otoni",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 178887,
@@ -16649,7 +18014,10 @@
             "https:\/\/www.instagram.com\/rubenspereirajr",
             "https:\/\/youtube.com\/channel\/UCovkVrGdzXbAHaV6ODAWbeA"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 73604,
@@ -16688,7 +18056,10 @@
             "https:\/\/www.instagram.com\/ruifalcao13",
             "https:\/\/youtube.com\/rfalcao13"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 160635,
@@ -16726,7 +18097,10 @@
             "https:\/\/www.facebook.com\/ruycarneiropb",
             "https:\/\/www.instagram.com\/ruy.carneiro"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204535,
@@ -16765,7 +18139,10 @@
             "https:\/\/www.instagram.com\/samiabomfim",
             "https:\/\/youtube.com\/samiabomfimpsol"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 233598,
@@ -16802,7 +18179,10 @@
             "https:\/\/www.facebook.com\/SamuelSantos.PerfilOficial",
             "https:\/\/www.instagram.com\/eusousamuelsantos"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220631,
@@ -16841,7 +18221,10 @@
             "https:\/\/www.instagram.com\/vianasamuel",
             "https:\/\/youtube.com\/channel\/UCgXYsH9AH6hf3kRJ272lAoQ"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204416,
@@ -16880,7 +18263,10 @@
             "https:\/\/www.instagram.com\/deputadosanderson",
             "https:\/\/youtube.com\/channel\/UC3bESW2nMM1EW-in7OwlKwg?view_as=subscriber"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204387,
@@ -16919,7 +18305,10 @@
             "https:\/\/www.instagram.com\/sargentofahurpr",
             "https:\/\/youtube.com\/channel\/UCGtU73VeRj9hY1P3PtVUERw"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220621,
@@ -16957,7 +18346,10 @@
             "https:\/\/www.facebook.com\/sargentogoncalves22",
             "https:\/\/www.instagram.com\/sargentogoncalves22"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220618,
@@ -16994,7 +18386,10 @@
             "https:\/\/twitter.com\/sargentoportuga",
             "https:\/\/www.facebook.com\/DeputadoFederalSargentoPortugal"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 226837,
@@ -17031,7 +18426,10 @@
             "https:\/\/twitter.com\/saulopedrososp",
             "https:\/\/www.facebook.com\/saulopedrososp"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 178933,
@@ -17070,7 +18468,10 @@
             "https:\/\/www.instagram.com\/sergiosouzapr",
             "https:\/\/youtube.com\/deputadofederalsergiosouza"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204557,
@@ -17104,7 +18505,10 @@
         "nomeEleitoral": "Sidney Leite",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 74356,
@@ -17138,7 +18542,10 @@
         "nomeEleitoral": "Silas Câmara",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204360,
@@ -17172,7 +18579,10 @@
         "nomeEleitoral": "Silvia Cristina",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220569,
@@ -17210,7 +18620,10 @@
             "https:\/\/www.facebook.com\/SilvyeeAlves",
             "https:\/\/www.instagram.com\/silvyealves"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220651,
@@ -17246,7 +18659,10 @@
         "redesSociais": [
             "https:\/\/www.facebook.com\/simonemarquetto"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 104552,
@@ -17284,7 +18700,10 @@
             "https:\/\/www.facebook.com\/SocorroNeri.Ac",
             "https:\/\/www.instagram.com\/socorroneri"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 178946,
@@ -17322,7 +18741,10 @@
             "https:\/\/www.instagram.com\/dep.sorayasantos\/",
             "https:\/\/www.youtube.com\/channel\/UCYJ_VrjZS7ISX0Ut0bU_AMA"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178947,
@@ -17361,7 +18783,10 @@
             "https:\/\/www.instagram.com\/sostenescavalcante",
             "https:\/\/youtube.com\/channel\/UCI2j76o7JyLVSmooEcSvLxA"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 92776,
@@ -17399,7 +18824,10 @@
             "https:\/\/www.facebook.com\/PastorStefanoAguiar",
             "https:\/\/www.instagram.com\/depstefano"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": null
+        }
     },
     {
         "id": 204534,
@@ -17438,7 +18866,10 @@
             "https:\/\/www.instagram.com\/tabataamaralsp",
             "https:\/\/youtube.com\/channel\/UCWcx5M5negY_kqSawo2bjZQ"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220682,
@@ -17472,7 +18903,10 @@
         "nomeEleitoral": "Tadeu Veneri",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204464,
@@ -17506,7 +18940,10 @@
         "nomeEleitoral": "Talíria Petrone",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220598,
@@ -17545,7 +18982,10 @@
             "https:\/\/www.instagram.com\/tarcisiomottapsol",
             "https:\/\/youtube.com\/tarcisiomottapsol"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 220560,
@@ -17581,7 +19021,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/thiagodejoaldo"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220597,
@@ -17620,7 +19063,10 @@
             "https:\/\/www.instagram.com\/deputadothiagoflores",
             "https:\/\/www.youtube.com\/channel\/UCF6Ks4RTqfjqxPMqUTotKkg"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 143084,
@@ -17656,7 +19102,10 @@
         "redesSociais": [
             "https:\/\/www.facebook.com\/tiagodimas7788"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220684,
@@ -17690,7 +19139,10 @@
         "nomeEleitoral": "Tião Medeiros",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160976,
@@ -17724,7 +19176,10 @@
         "nomeEleitoral": "Tiririca",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178934,
@@ -17758,7 +19213,10 @@
         "nomeEleitoral": "Toninho Wandscheer",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 157130,
@@ -17796,7 +19254,10 @@
             "https:\/\/www.facebook.com\/TulioGadelhaOficial",
             "https:\/\/www.instagram.com\/tulio.gadelha"
         ],
-        "voto": null
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 160610,
@@ -17830,7 +19291,10 @@
         "nomeEleitoral": "Valmir Assunção",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 74376,
@@ -17867,7 +19331,10 @@
             "https:\/\/twitter.com\/vanderloubet",
             "https:\/\/www.instagram.com\/vanderloubet"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204396,
@@ -17905,7 +19372,10 @@
             "https:\/\/www.facebook.com\/vermelhodeputadofederal",
             "https:\/\/www.instagram.com\/deputado_vermelho"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 74283,
@@ -17944,7 +19414,10 @@
             "https:\/\/www.instagram.com\/vicentinho_pt",
             "https:\/\/youtube.com\/DeputadoFederalVicentinhoPTSP"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 137070,
@@ -17978,7 +19451,10 @@
         "nomeEleitoral": "Vicentinho Júnior",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 141555,
@@ -18017,7 +19493,10 @@
             "https:\/\/www.instagram.com\/viniciuscarvalhooficial",
             "https:\/\/youtube.com\/channel\/UC0jfgVGfyujPS4YeBjTdJpw"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160591,
@@ -18051,7 +19530,10 @@
         "nomeEleitoral": "Vinicius Gurgel",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 178992,
@@ -18089,7 +19571,10 @@
             "https:\/\/www.facebook.com\/vitorlippi",
             "https:\/\/www.instagram.com\/vitorlippi"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 91228,
@@ -18127,7 +19612,10 @@
             "https:\/\/www.facebook.com\/waldemaroliveiraoficial",
             "https:\/\/www.instagram.com\/waldemaroliveiraoficial"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160569,
@@ -18161,7 +19649,10 @@
         "nomeEleitoral": "Waldenor Pereira",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 160518,
@@ -18197,7 +19688,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/weliton.prado"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": "Não"
+        }
     },
     {
         "id": 74043,
@@ -18233,7 +19727,10 @@
         "redesSociais": [
             "https:\/\/www.instagram.com\/wellingtonroberto.pb"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 224333,
@@ -18271,7 +19768,10 @@
             "https:\/\/www.facebook.com\/deputadowelter",
             "https:\/\/www.instagram.com\/eltonwelter"
         ],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 74044,
@@ -18309,7 +19809,10 @@
             "https:\/\/www.facebook.com\/wilsonsantiagopb",
             "https:\/\/www.instagram.com\/wilsonsantiago"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220564,
@@ -18348,7 +19851,10 @@
             "https:\/\/www.instagram.com\/yandramourase",
             "https:\/\/youtube.com\/Yandramourase"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 220660,
@@ -18385,7 +19891,10 @@
             "https:\/\/twitter.com\/yurydoparedao",
             "https:\/\/www.instagram.com\/yurydoparedao"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 230768,
@@ -18419,7 +19928,10 @@
         "nomeEleitoral": "Zé Adriano",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 220536,
@@ -18453,7 +19965,10 @@
         "nomeEleitoral": "Zé Haroldo Cathedral",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": null
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 204559,
@@ -18487,7 +20002,10 @@
         "nomeEleitoral": "Zé Neto",
         "descricaoStatus": "",
         "redesSociais": [],
-        "voto": "Não"
+        "voto": {
+            "1turno": "Não",
+            "2turno": "Não"
+        }
     },
     {
         "id": 160632,
@@ -18526,7 +20044,10 @@
             "https:\/\/www.instagram.com\/depzesilva",
             "https:\/\/youtube.com\/deputadozesilva"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 220558,
@@ -18560,7 +20081,10 @@
         "nomeEleitoral": "Zé Trovão",
         "descricaoStatus": null,
         "redesSociais": [],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 204517,
@@ -18597,7 +20121,10 @@
             "https:\/\/www.facebook.com\/zevitorMG",
             "https:\/\/www.instagram.com\/zevitormg"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     },
     {
         "id": 160592,
@@ -18635,7 +20162,10 @@
             "https:\/\/www.facebook.com\/deputadofederalzecadirceu\/",
             "https:\/\/www.instagram.com\/zecadirceuoficial"
         ],
-        "voto": "Ausente"
+        "voto": {
+            "1turno": null,
+            "2turno": null
+        }
     },
     {
         "id": 220592,
@@ -18671,6 +20201,9 @@
         "redesSociais": [
             "https:\/\/www.facebook.com\/ZezinhoBarbary"
         ],
-        "voto": "Sim"
+        "voto": {
+            "1turno": "Sim",
+            "2turno": "Sim"
+        }
     }
 ]
