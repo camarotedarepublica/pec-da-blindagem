@@ -85,12 +85,12 @@
             <table class="table table-striped table-hover">
                 <thead class="table-dark sticky-top">
                     <tr>
-                        <th width="25%"><i class="bi bi-person"></i> Nome</th>
-                        <th width="15%"><i class="bi bi-flag"></i> Partido</th>
-                        <th width="10%"><i class="bi bi-geo-alt"></i> UF</th>
-                        <th width="10%"><i class="bi bi-check-circle"></i> 1º Turno</th>
-                        <th width="10%"><i class="bi bi-check-circle"></i> 2º Turno</th>
                         <th></th>
+                        <th><i class="bi bi-person"></i> Nome</th>
+                        <th><i class="bi bi-flag"></i> Partido</th>
+                        <th><i class="bi bi-geo-alt"></i> UF</th>
+                        <th><i class="bi bi-check-circle"></i> 1º Turno</th>
+                        <th><i class="bi bi-check-circle"></i> 2º Turno</th>
                     </tr>
                 </thead>
                 <tbody id="deputadosTableBody"></tbody>
@@ -147,7 +147,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        // Registrar Service Worker para proxy de imagens
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('./sw.js')
@@ -160,11 +159,9 @@
             });
         }
 
-        // Função para tratar erro de carregamento de imagem
         function handleImageError(img) {
             console.log('Erro ao carregar imagem:', img.src);
             
-            // Tentar com proxy público
             const originalSrc = img.getAttribute('data-original-src') || img.src;
             const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(originalSrc)}`;
             
@@ -174,7 +171,6 @@
                 return;
             }
             
-            // Se o proxy também falhar, usar placeholder SVG
             const placeholderSvg = `data:image/svg+xml,${encodeURIComponent(`
                 <svg width="150" height="200" xmlns="http://www.w3.org/2000/svg">
                     <rect width="150" height="200" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
@@ -254,6 +250,13 @@
 
                 row.innerHTML = `
                     <td class="align-middle">
+                        ${(voto1Turno === "Sim" || voto2Turno === "Sim") ?
+                            `<button class="btn btn-sm btn-info" onclick="event.stopPropagation(); showDeputadoDetails(deputadosData.find(d => d.id === ${deputado.id}))">
+                                <i class="bi bi-flag-fill"></i> Protestar
+                            </button>` : ''
+                        }
+                    </td>
+                    <td class="align-middle">
                         <strong>${deputado.nomeEleitoral}</strong>
                     </td>
                     <td class="align-middle">
@@ -267,13 +270,6 @@
                     </td>
                     <td class="align-middle">
                         <span class="${voto2Class}">${voto2Text}</span>
-                    </td>
-                    <td class="align-middle">
-                        ${(voto1Turno === "Sim" || voto2Turno === "Sim") ?
-                            `<button class="btn btn-sm btn-info" onclick="event.stopPropagation(); showDeputadoDetails(deputadosData.find(d => d.id === ${deputado.id}))">
-                                <i class="bi bi-flag-fill"></i> Protestar
-                            </button>` : ''
-                        }
                     </td>
                 `;
 
@@ -299,7 +295,6 @@
             }
         }
 
-        // Função para detectar o tipo de rede social e retornar o ícone apropriado
         function getSocialMediaIcon(url) {
             const urlLower = url.toLowerCase();
             
@@ -526,12 +521,10 @@
             renderTable();
         }
 
-        // Atualizar textos de compartilhamento
         function updateShareTexts(deputado = null) {
             let emailText, socialText;
 
             if (deputado) {
-                // Textos personalizados para o deputado específico
                 emailText = `Prezado ${deputado.nome},
 
 Acompanhei seu voto referente a PEC 3 de 2021, também conhecido como PEC da blindagem, e me causou constrangimento em tomar conhecimento de vossa escolha.
