@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PEC da Blindagem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <style>
+        .vote-sim {
+            color: #198754;
+            font-weight: bold;
+        }
+
+        .vote-nao {
+            color: #dc3545;
+            font-weight: bold;
+        }
+
+        .vote-abstencao {
+            color: #fd7e14;
+            font-weight: bold;
+        }
+
+        .vote-ausente {
+            color: #6c757d;
+            font-weight: bold;
+        }
+
+        .vote-null {
+            color: #adb5bd;
+            font-style: italic;
+        }
+
+        .social-links a {
+            margin-right: 10px;
+        }
+
+        .photo-container {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .deputy-photo {
+            max-width: 120px;
+            border-radius: 10px;
+            border: 3px solid #dee2e6;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid text-white">
+            <h1 class="fs-4 mb-0 w-100 d-block text-center">
+                <i class="bi bi-shield-fill-check me-2"></i>
+                PEC da Blindagem
+            </h1>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-2">
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <label for="filtroNome" class="form-label">
+                    <i class="bi bi-search"></i> Nome
+                </label>
+                <input type="text" class="form-control" id="filtroNome" placeholder="Filtrar por nome..." />
+            </div>
+            <div class="col-md-2 mt-2 mt-md-0">
+                <label for="filtroPartido" class="form-label">
+                    <i class="bi bi-flag"></i> Partido
+                </label>
+                <select class="form-select" id="filtroPartido">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+            <div class="col-md-2 mt-2 mt-md-0">
+                <label for="filtroUF" class="form-label">
+                    <i class="bi bi-geo-alt"></i> UF
+                </label>
+                <select class="form-select" id="filtroUF">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+            <div class="col-md-2 mt-2 mt-md-0">
+                <label for="filtroVoto" class="form-label">
+                    <i class="bi bi-check-circle"></i> Voto
+                </label>
+                <select class="form-select" id="filtroVoto">
+                    <option value="">Todos</option>
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                    <option value="Abstenção">Abstenção</option>
+                    <option value="Ausente">Ausente</option>
+                    <option value="null">Não Informado</option>
+                </select>
+            </div>
+            <div class="col-md-3 d-flex align-items-end mt-2 mt-md-0">
+                <button class="btn btn-secondary me-2" id="limparFiltros">
+                    <i class="bi bi-arrow-clockwise"></i> Limpar
+                </button>
+                <div class="text-muted mt-2 mt-md-0">
+                    Total: <span id="totalDeputados">0</span> deputados
+                </div>
+            </div>
+        </div>
+
+        <div class="table-container overflow-auto">
+            <table class="table table-striped table-hover">
+                <thead class="table-dark sticky-top">
+                    <tr>
+                        <th width="30%"><i class="bi bi-person"></i> Nome</th>
+                        <th width="20%"><i class="bi bi-flag"></i> Partido</th>
+                        <th width="10%"><i class="bi bi-geo-alt"></i> UF</th>
+                        <th width="15%"><i class="bi bi-check-circle"></i> Voto</th>
+                        <th width="25%"></th>
+                    </tr>
+                </thead>
+                <tbody id="deputadosTableBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="modal fade" id="deputadoModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">
+                        <i class="bi bi-person-circle"></i> Detalhes do Deputado
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                </div>
+                <div class="modal-footer bg-warning bg-gradient">
+                    <div class="copy-section w-100">
+                        <h4 class="mb-4">
+                            <i class="bi bi-share"></i> Faça seu protesto por email ou nas redes sociais!
+                        </h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="emailText" class="form-label">
+                                    <i class="bi bi-envelope"></i> Texto para Email
+                                </label>
+                                <div class="input-group">
+                                    <textarea class="form-control" id="emailText" rows="4" readonly></textarea>
+                                    <button class="btn btn-primary" type="button" id="copyEmail">
+                                        <i class="bi bi-clipboard"></i> Copiar
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-3 mt-md-0">
+                                <label for="socialText" class="form-label">
+                                    <i class="bi bi-share"></i> Texto para Redes Sociais
+                                </label>
+                                <div class="input-group">
+                                    <textarea class="form-control" id="socialText" rows="4" readonly></textarea>
+                                    <button class="btn btn-primary" type="button" id="copySocial">
+                                        <i class="bi bi-clipboard"></i> Copiar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        let deputadosData = [];
+        let filteredData = [];
+
+        async function carregarDados() {
+            try {
+                const response = await fetch("pec-da-blindagem.json");
+                deputadosData = await response.json();
+                filteredData = [...deputadosData];
+
+                populateFilters();
+                renderTable();
+                updateShareTexts();
+
+                console.log(`Carregados ${deputadosData.length} deputados`);
+            } catch (error) {
+                console.error("Erro ao carregar dados:", error);
+                alert("Erro ao carregar os dados dos deputados.");
+            }
+        }
+
+        function populateFilters() {
+            const partidos = [
+                ...new Set(deputadosData.map((d) => d.siglaPartido)),
+            ].sort();
+            const ufs = [...new Set(deputadosData.map((d) => d.siglaUf))].sort();
+
+            const partidoSelect = document.getElementById("filtroPartido");
+            const ufSelect = document.getElementById("filtroUF");
+
+            partidos.forEach((partido) => {
+                if (partido) {
+                    const option = document.createElement("option");
+                    option.value = partido;
+                    option.textContent = partido;
+                    partidoSelect.appendChild(option);
+                }
+            });
+
+            ufs.forEach((uf) => {
+                if (uf) {
+                    const option = document.createElement("option");
+                    option.value = uf;
+                    option.textContent = uf;
+                    ufSelect.appendChild(option);
+                }
+            });
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById("deputadosTableBody");
+            tbody.innerHTML = "";
+
+            filteredData.forEach((deputado) => {
+                const row = document.createElement("tr");
+                row.className = "candidate-row";
+                row.onclick = () => showDeputadoDetails(deputado);
+
+                const votoClass = getVoteClass(deputado.voto);
+                const votoText = deputado.voto || "Não Informado";
+
+                row.innerHTML = `
+                    <td class="align-middle">
+                        <strong>${deputado.nome}</strong> (<small class="text-muted">${deputado.nomeEleitoral})</small>
+                    </td>
+                    <td class="align-middle">
+                        <span class="badge bg-primary">${deputado.siglaPartido
+                    }</span>
+                    </td>
+                    <td class="align-middle">
+                        <span class="badge bg-secondary">${deputado.siglaUf
+                    }</span>
+                    </td>
+                    <td class="align-middle">
+                        <span class="${votoClass}">${votoText}</span>
+                    </td>
+                    <td class="align-middle">
+                        <button class="btn btn-sm btn-info" onclick="event.stopPropagation(); showDeputadoDetails(deputadosData.find(d => d.id === ${deputado.id
+                    }))">
+                            <i class="bi bi-flag-fill"></i> Protestar
+                        </button>
+                    </td>
+                `;
+
+                tbody.appendChild(row);
+            });
+
+            document.getElementById("totalDeputados").textContent =
+                filteredData.length;
+        }
+
+        function getVoteClass(voto) {
+            switch (voto) {
+                case "Sim":
+                    return "vote-sim";
+                case "Não":
+                    return "vote-nao";
+                case "Abstenção":
+                    return "vote-abstencao";
+                case "Ausente":
+                    return "vote-ausente";
+                default:
+                    return "vote-null";
+            }
+        }
+
+        // Função para detectar o tipo de rede social e retornar o ícone apropriado
+        function getSocialMediaIcon(url) {
+            const urlLower = url.toLowerCase();
+            
+            if (urlLower.includes('facebook.com') || urlLower.includes('fb.com')) {
+                return 'bi bi-facebook';
+            } else if (urlLower.includes('twitter.com') || urlLower.includes('x.com')) {
+                return 'bi bi-twitter-x';
+            } else if (urlLower.includes('instagram.com')) {
+                return 'bi bi-instagram';
+            } else if (urlLower.includes('youtube.com') || urlLower.includes('youtu.be')) {
+                return 'bi bi-youtube';
+            } else if (urlLower.includes('linkedin.com')) {
+                return 'bi bi-linkedin';
+            } else if (urlLower.includes('whatsapp.com') || urlLower.includes('wa.me')) {
+                return 'bi bi-whatsapp';
+            } else if (urlLower.includes('telegram.org') || urlLower.includes('t.me')) {
+                return 'bi bi-telegram';
+            } else if (urlLower.includes('tiktok.com')) {
+                return 'bi bi-tiktok';
+            } else if (urlLower.includes('github.com')) {
+                return 'bi bi-github';
+            } else if (urlLower.includes('discord.com') || urlLower.includes('discord.gg')) {
+                return 'bi bi-discord';
+            } else if (urlLower.includes('snapchat.com')) {
+                return 'bi bi-snapchat';
+            } else if (urlLower.includes('pinterest.com')) {
+                return 'bi bi-pinterest';
+            } else if (urlLower.includes('reddit.com')) {
+                return 'bi bi-reddit';
+            } else if (urlLower.includes('twitch.tv')) {
+                return 'bi bi-twitch';
+            } else {
+                return 'bi bi-link-45deg';
+            }
+        }
+
+        function showDeputadoDetails(deputado) {
+            const modal = new bootstrap.Modal(
+                document.getElementById("deputadoModal")
+            );
+            const modalBody = document.getElementById("modalBody");
+            const modalTitle = document.getElementById("modalTitle");
+
+            modalTitle.innerHTML = `<i class="bi bi-person-circle"></i> ${deputado.nome}`;
+
+            const socialLinks =
+                deputado.redesSociais && deputado.redesSociais.length > 0
+                    ? deputado.redesSociais
+                        .map(
+                            (link) =>
+                                `<a href="${link}" target="_blank" class="btn btn-lg btn-primary me-1" title="${link}">
+                        <i class="${getSocialMediaIcon(link)}"></i>
+                    </a>`
+                        )
+                        .join("")
+                    : '<span class="text-muted">Não informado</span>';
+
+            modalBody.innerHTML = `
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="photo-container">
+                            <img src="${deputado.urlFoto}" alt="Foto de ${deputado.nome
+                }" class="deputy-photo img-fluid" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDEyMCAxNDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iMTQwIiBmaWxsPSIjZGVlMmU2Ii8+CjxjaXJjbGUgY3g9IjYwIiBjeT0iNTAiIHI9IjIwIiBmaWxsPSIjNmM3NTdkIi8+CjxwYXRoIGQ9Ik0yMCAxMDBjMC0yMiAyMC00MCA0MC00MHM0MCAxOCA0MCA0MHY0MEgyMHoiIGZpbGw9IiM2Yzc1N2QiLz4KPHN2Zz4K'">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <h4>${deputado.nome}</h4>
+                        <p class="m-0"><strong>Nome Civil:</strong> ${deputado.nomeCivil || "Não informado"
+                }</p>
+                        <p class="m-0"><strong>Nome Eleitoral:</strong> ${deputado.nomeEleitoral || "Não informado"
+                }</p>
+                        <p class="m-0"><strong>Partido:</strong> <span class="badge bg-primary">${deputado.siglaPartido
+                }</span></p>
+                        <p class="m-0"><strong>UF:</strong> <span class="badge bg-secondary">${deputado.siglaUf
+                }</span></p>
+                        <p class="m-0"><strong>Voto:</strong> <span class="${getVoteClass(
+                    deputado.voto
+                )}">${deputado.voto || "Não Informado"}</span></p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5><i class="bi bi-person-badge"></i> Informações Pessoais</h5>
+                        <p class="m-0"><strong>Sexo:</strong> ${deputado.sexo === "M"
+                    ? "Masculino"
+                    : deputado.sexo === "F"
+                        ? "Feminino"
+                        : "Não informado"
+                }</p>
+                        <p class="m-0"><strong>Data de Nascimento:</strong> ${deputado.dataNascimento
+                    ? new Date(
+                        deputado.dataNascimento
+                    ).toLocaleDateString("pt-BR")
+                    : "Não informado"
+                }</p>
+                        <p class="m-0"><strong>Local de Nascimento:</strong> ${deputado.municipioNascimento || "Não informado"
+                } - ${deputado.ufNascimento || "Não informado"}</p>
+                        <p class="m-0"><strong>Escolaridade:</strong> ${deputado.escolaridade || "Não informado"
+                }</p>
+                        <p class="m-0"><strong>Situação:</strong> ${deputado.situacao || "Não informado"
+                }</p>
+                        <p class="m-0"><strong>Condição Eleitoral:</strong> ${deputado.condicaoEleitoral || "Não informado"
+                }</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5><i class="bi bi-building mt-3 mt-md-0"></i> Gabinete</h5>
+                        ${deputado.gabinete
+                    ? `
+                            <p class="m-0"><strong>Sala:</strong> ${deputado.gabinete.nome
+                    }</p>
+                            <p class="m-0"><strong>Prédio:</strong> ${deputado.gabinete.predio
+                    }</p>
+                            <p class="m-0"><strong>Andar:</strong> ${deputado.gabinete.andar || "Não informado"
+                    }</p>
+                            <p class="m-0"><strong>Telefone:</strong> ${deputado.gabinete.telefone
+                    }</p>
+                        `
+                    : "<p class='m-0'>Informações não disponíveis</p>"
+                }
+                        
+                        <h5 class="mt-3"><i class="bi bi-envelope"></i> Contato</h5>
+                        <p class="m-0"><strong>Email:</strong> 
+                            ${deputado.email
+                    ? `<a href="mailto:${deputado.email}">${deputado.email}</a>`
+                    : "Não informado"
+                }
+                        </p>
+                        ${deputado.urlWebsite
+                    ? `<p class="m-0"><strong>Website:</strong> <a href="${deputado.urlWebsite}" target="_blank">${deputado.urlWebsite}</a></p>`
+                    : ""
+                }
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <h5><i class="bi bi-share"></i> Redes Sociais</h5>
+                        <div class="social-links">
+                            ${socialLinks}
+                        </div>
+                    </div>
+                </div>
+                
+                ${deputado.descricaoStatus
+                    ? `
+                <hr>
+                <div class="row">
+                    <div class="col-12">
+                        <h5><i class="bi bi-info-circle"></i> Status</h5>
+                        <p class="text-muted">${deputado.descricaoStatus}</p>
+                    </div>
+                </div>
+                `
+                    : ""
+                }
+            `;
+
+            updateShareTexts(deputado);
+
+            modal.show();
+        }
+
+        function applyFilters() {
+            const nomeFilter = document
+                .getElementById("filtroNome")
+                .value.toLowerCase();
+            const partidoFilter = document.getElementById("filtroPartido").value;
+            const ufFilter = document.getElementById("filtroUF").value;
+            const votoFilter = document.getElementById("filtroVoto").value;
+
+            filteredData = deputadosData.filter((deputado) => {
+                const nomeMatch =
+                    !nomeFilter ||
+                    (deputado.nome && deputado.nome.toLowerCase().includes(nomeFilter)) ||
+                    (deputado.nomeEleitoral &&
+                        deputado.nomeEleitoral.toLowerCase().includes(nomeFilter)) ||
+                    (deputado.nomeCivil &&
+                        deputado.nomeCivil.toLowerCase().includes(nomeFilter));
+
+                const partidoMatch =
+                    !partidoFilter || deputado.siglaPartido === partidoFilter;
+                const ufMatch = !ufFilter || deputado.siglaUf === ufFilter;
+                const votoMatch =
+                    !votoFilter ||
+                    (votoFilter === "null"
+                        ? !deputado.voto
+                        : deputado.voto === votoFilter);
+
+                return nomeMatch && partidoMatch && ufMatch && votoMatch;
+            });
+
+            renderTable();
+        }
+
+        function clearFilters() {
+            document.getElementById("filtroNome").value = "";
+            document.getElementById("filtroPartido").value = "";
+            document.getElementById("filtroUF").value = "";
+            document.getElementById("filtroVoto").value = "";
+
+            filteredData = [...deputadosData];
+            renderTable();
+        }
+
+        // Atualizar textos de compartilhamento
+        function updateShareTexts(deputado = null) {
+            let emailText, socialText;
+
+            if (deputado) {
+                // Textos personalizados para o deputado específico
+                emailText = `Prezado ${deputado.nome},
+
+Acompanhei seu voto referente a PEC 3 de 2021, também conhecido como PEC da blindagem, e me causou constrangimento em tomar conhecimento de vossa escolha.
+
+Vivemos em um país onde os políticos poderão se tornar intocáveis, aumentando a quantidade de crimes além de confirmar que a impunidade de corruptos se concretizará. Não acredito que seja esta a vontade de seu eleitorado.
+
+Por isso peço que atue contra a aprovação da PEC no Senado, além de dar maiores explicações para seu eleitorado - como eu - que precisa saber se é representado ou não na Câmara dos Deputados.
+
+---
+
+Além disso, atendendo ao desafio de Bibo Nunes (PL-RS) lançou publicamente — de apresentarmos crimes cometidos por deputados e senadores de direita — informamos que realizamos um levantamento criterioso.
+
+Organizamos em um dossiê diversos links, reportagens, decisões judiciais e demais documentos públicos que registram episódios envolvendo parlamentares e lideranças da direita brasileira.
+
+Nosso objetivo é contribuir com o debate público de forma transparente e fundamentada, disponibilizando informações que qualquer cidadão pode acessar.
+
+Pode acompanhar o dossie pela URL: http://teste.html`;
+
+                socialText = `Prezado ${deputado.nome},
+
+Acompanhei seu voto referente a PEC 3 de 2021, também conhecido como PEC da blindagem, e me causou constrangimento em tomar conhecimento de vossa escolha.
+
+Vivemos em um país onde os políticos poderão se tornar intocáveis, aumentando a quantidade de crimes além de confirmar que a impunidade de corruptos se concretizará. Não acredito que seja esta a vontade de seu eleitorado.
+
+Por isso peço que atue contra a aprovação da PEC no Senado, além de dar maiores explicações para seu eleitorado - como eu - que precisa saber se é representado ou não na Câmara dos Deputados.`;
+            } else {
+                const totalDeputados = deputadosData.length;
+                const votosCount = {
+                    sim: deputadosData.filter((d) => d.voto === "Sim").length,
+                    nao: deputadosData.filter((d) => d.voto === "Não").length,
+                    abstencao: deputadosData.filter((d) => d.voto === "Abstenção").length,
+                    ausente: deputadosData.filter((d) => d.voto === "Ausente").length,
+                    null: deputadosData.filter((d) => !d.voto).length,
+                };
+
+                emailText = `Prezado congressista,
+
+Acompanhei seu voto referente a PEC 3 de 2021, também conhecido como PEC da blindagem, e me causou constrangimento em tomar conhecimento de vossa escolha.
+
+Vivemos em um país onde os políticos poderão se tornar intocáveis, aumentando a quantidade de crimes além de confirmar que a impunidade de corruptos se concretizará. Não acredito que seja esta a vontade de seu eleitorado.
+
+Por isso peço que atue contra a aprovação da PEC no Senado, além de dar maiores explicações para seu eleitorado - como eu - que precisa saber se é representado ou não na Câmara dos Deputados.`;
+            }
+
+            document.getElementById("emailText").value = emailText;
+            document.getElementById("socialText").value = socialText;
+        }
+
+        async function copyToClipboard(elementId, buttonId) {
+            const text = document.getElementById(elementId).value;
+            const button = document.getElementById(buttonId);
+
+            try {
+                await navigator.clipboard.writeText(text);
+                const originalContent = button.innerHTML;
+                button.innerHTML = '<i class="bi bi-check"></i> Copiado!';
+                button.classList.remove("btn-primary", "btn-success");
+                button.classList.add("btn-success");
+
+                setTimeout(() => {
+                    button.innerHTML = originalContent;
+                    button.classList.remove("btn-success");
+                    button.classList.add(
+                        elementId === "emailText"
+                            ? "btn-primary"
+                            : "btn-success"
+                    );
+                }, 2000);
+            } catch (err) {
+                console.error("Erro ao copiar:", err);
+                alert("Erro ao copiar texto. Tente selecionar e copiar manualmente.");
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            carregarDados();
+
+            document
+                .getElementById("filtroNome")
+                .addEventListener("input", applyFilters);
+            document
+                .getElementById("filtroPartido")
+                .addEventListener("change", applyFilters);
+            document
+                .getElementById("filtroUF")
+                .addEventListener("change", applyFilters);
+            document
+                .getElementById("filtroVoto")
+                .addEventListener("change", applyFilters);
+            document
+                .getElementById("limparFiltros")
+                .addEventListener("click", clearFilters);
+
+            document
+                .getElementById("copyEmail")
+                .addEventListener("click", () =>
+                    copyToClipboard("emailText", "copyEmail")
+                );
+            document
+                .getElementById("copySocial")
+                .addEventListener("click", () =>
+                    copyToClipboard("socialText", "copySocial")
+                );
+        });
+    </script>
+</body>
+
+</html>
