@@ -21,15 +21,15 @@
         </div>
     </nav>
 
-    <div class="container-fluid mt-2">
-        <div class="row mb-3 mt-3">
+    <div class="container mt-2 ps-0 pe-0 ps-md-2 pe-md-2">
+        <div class="row mb-3 mt-3 ms-1 me-1">
             <div class="col-md-3">
                 <label for="filtroNome" class="form-label">
                     <i class="bi bi-search"></i> Nome
                 </label>
                 <input type="text" class="form-control" id="filtroNome" placeholder="Filtrar por nome..." />
             </div>
-            <div class="col-md-2 mt-2 mt-md-0">
+            <div class="col-6 col-md-2 mt-2 mt-md-0">
                 <label for="filtroPartido" class="form-label">
                     <i class="bi bi-flag"></i> Partido
                 </label>
@@ -37,7 +37,7 @@
                     <option value="">Todos</option>
                 </select>
             </div>
-            <div class="col-md-1 mt-2 mt-md-0">
+            <div class="col-6 col-md-1 mt-2 mt-md-0">
                 <label for="filtroUF" class="form-label">
                     <i class="bi bi-geo-alt"></i> UF
                 </label>
@@ -45,7 +45,7 @@
                     <option value="">Todos</option>
                 </select>
             </div>
-            <div class="col-md-1 mt-2 mt-md-0">
+            <div class="col-6 col-md-1 mt-2 mt-md-0">
                 <label for="filtroVoto1Turno" class="form-label">
                     <i class="bi bi-check-circle"></i> 1º Turno
                 </label>
@@ -58,7 +58,7 @@
                     <option value="null">Não Informado</option>
                 </select>
             </div>
-            <div class="col-md-1 mt-2 mt-md-0">
+            <div class="col-6 col-md-1 mt-2 mt-md-0">
                 <label for="filtroVoto2Turno" class="form-label">
                     <i class="bi bi-check-circle"></i> 2º Turno
                 </label>
@@ -85,12 +85,11 @@
             <table class="table table-striped table-hover">
                 <thead class="table-dark sticky-top">
                     <tr>
-                        <th></th>
-                        <th><i class="bi bi-person"></i> Nome</th>
-                        <th><i class="bi bi-flag"></i> Partido</th>
-                        <th><i class="bi bi-geo-alt"></i> UF</th>
-                        <th><i class="bi bi-check-circle"></i> 1º Turno</th>
-                        <th><i class="bi bi-check-circle"></i> 2º Turno</th>
+                        <th class="text-nowrap"><i class="bi bi-person"></i> Nome</th>
+                        <th class="text-nowrap"><i class="bi bi-flag"></i> Partido</th>
+                        <th class="text-nowrap"><i class="bi bi-geo-alt"></i> UF</th>
+                        <th class="text-nowrap"><i class="bi bi-check-circle"></i> 1º Turno</th>
+                        <th class="text-nowrap"><i class="bi bi-check-circle"></i> 2º Turno</th>
                     </tr>
                 </thead>
                 <tbody id="deputadosTableBody"></tbody>
@@ -101,44 +100,13 @@
     <div class="modal fade" id="deputadoModal" tabindex="-1">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header pt-2 pb-2">
                     <h5 class="modal-title" id="modalTitle">
                         <i class="bi bi-person-circle"></i> Detalhes do Deputado
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
-                <div class="modal-body" id="modalBody">
-                </div>
-                <div class="modal-footer bg-warning bg-gradient">
-                    <div class="copy-section w-100">
-                        <h4 class="mb-4">
-                            <i class="bi bi-share"></i> Faça seu protesto por email ou nas redes sociais!
-                        </h3>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label for="emailText" class="form-label">
-                                    <i class="bi bi-envelope"></i> Texto para Email
-                                </label>
-                                <div class="input-group">
-                                    <textarea class="form-control" id="emailText" rows="4" readonly></textarea>
-                                    <button class="btn btn-primary" type="button" id="copyEmail">
-                                        <i class="bi bi-clipboard"></i> Copiar
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3 mt-md-0">
-                                <label for="socialText" class="form-label">
-                                    <i class="bi bi-share"></i> Texto para Redes Sociais
-                                </label>
-                                <div class="input-group">
-                                    <textarea class="form-control" id="socialText" rows="4" readonly></textarea>
-                                    <button class="btn btn-primary" type="button" id="copySocial">
-                                        <i class="bi bi-clipboard"></i> Copiar
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="modal-body p-0 m-0" id="modalBody">
                 </div>
             </div>
         </div>
@@ -194,7 +162,6 @@
 
                 populateFilters();
                 renderTable();
-                updateShareTexts();
 
                 console.log(`Carregados ${deputadosData.length} deputados`);
             } catch (error) {
@@ -251,12 +218,10 @@
                 row.innerHTML = `
                     <td class="align-middle">
                         ${(voto1Turno === "Sim" || voto2Turno === "Sim") ?
-                            `<button class="btn btn-sm btn-info" onclick="event.stopPropagation(); showDeputadoDetails(deputadosData.find(d => d.id === ${deputado.id}))">
+                            `<button class="btn btn-sm btn-info me-md-1 text-nowrap" onclick="event.stopPropagation(); showDeputadoDetails(deputadosData.find(d => d.id === ${deputado.id}))">
                                 <i class="bi bi-flag-fill"></i> Protestar
                             </button>` : ''
                         }
-                    </td>
-                    <td class="align-middle">
                         <strong>${deputado.nomeEleitoral}</strong>
                     </td>
                     <td class="align-middle">
@@ -340,6 +305,16 @@
 
             modalTitle.innerHTML = `<i class="bi bi-person-circle"></i> ${deputado.nome}`;
 
+            emailText = `Prezado ${deputado.nome},
+
+Acompanhei seu voto referente a PEC 3 de 2021, também conhecido como PEC da blindagem, e me causou constrangimento em tomar conhecimento de vossa escolha.
+
+Vivemos em um país onde os políticos poderão se tornar intocáveis, aumentando a quantidade de crimes além de confirmar que a impunidade de corruptos se concretizará. Não acredito que seja esta a vontade de seu eleitorado.
+
+Por isso peço que atue contra a aprovação da PEC no Senado, além de dar maiores explicações para seu eleitorado - como eu - que precisa saber se é representado ou não na Câmara dos Deputados.`;
+
+            socialText = `Prezado ${deputado.nome}, seu voto na PEC 3/21 (PEC da blindagem) envergonha eleitores. Ela cria políticos intocáveis e fortalece a impunidade. Peço que atue contra no Senado e explique sua posição a quem representa.`;
+
             const socialLinks =
                 deputado.redesSociais && deputado.redesSociais.length > 0
                     ? deputado.redesSociais
@@ -353,8 +328,8 @@
                     : '<span class="text-muted">Não informado</span>';
 
             modalBody.innerHTML = `
-                <div class="row">
-                    <div class="col-md-2">
+                <div class="row p-3">
+                    <div class="col-3 col-md-2">
                         <div class="photo-container">
                             <img src="${deputado.urlFoto}?v=1" alt="Foto de ${deputado.nome
                 }" class="rounded-3 border border-4 img-fluid"
@@ -362,15 +337,15 @@
                                  loading="lazy">
                         </div>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-9 ol-md-8">
                         <h4>${deputado.nome}</h4>
                         <p class="m-0"><strong>Nome Civil:</strong> ${deputado.nomeCivil || "Não informado"
                 }</p>
                         <p class="m-0"><strong>Nome Eleitoral:</strong> ${deputado.nomeEleitoral || "Não informado"
                 }</p>
-                        <p class="m-0"><strong>Partido:</strong> <span class="badge bg-primary">${deputado.siglaPartido
+                        <p class="m-0"><strong>Partido:</strong> <span>${deputado.siglaPartido
                 }</span></p>
-                        <p class="m-0"><strong>UF:</strong> <span class="badge bg-secondary">${deputado.siglaUf
+                        <p class="m-0"><strong>UF:</strong> <span>${deputado.siglaUf
                 }</span></p>
                         <p class="m-0"><strong>1º Turno:</strong> <span class="${getVoteClass(
                     deputado.voto && deputado.voto["1turno"] ? deputado.voto["1turno"] : null
@@ -381,9 +356,45 @@
                     </div>
                 </div>
                 
-                <hr>
+                <div class="bg-warning bg-gradient p-4">
+                    <div class="copy-section w-100">
+                        <h4 class="mb-3 fs-5 text-center w-100">
+                            <i class="bi bi-flag-fill"></i> Faça seu protesto por email ou nas redes sociais!
+                        </h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="social-links pb-2">
+                                    ${socialLinks}
+                                </div>
+                                <label for="socialText" class="form-label">
+                                    <i class="bi bi-share"></i> Texto para Redes Sociais
+                                </label>
+                                <div class="input-group">
+                                    <textarea class="form-control" id="socialText" rows="4" readonly>${socialText}</textarea>
+                                    <button class="btn btn-primary" type="button" id="copySocial">
+                                        <i class="bi bi-clipboard"></i> Copiar
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-3 mt-md-0">
+                                <div class="email">
+                                    <a href="mailto:${deputado.email}">${deputado.email}</a>
+                                </div>
+                                <label for="emailText" class="form-label">
+                                    <i class="bi bi-envelope"></i> Texto para Email
+                                </label>
+                                <div class="input-group">
+                                    <textarea class="form-control" id="emailText" rows="4" readonly>${emailText}</textarea>
+                                    <button class="btn btn-primary" type="button" id="copyEmail">
+                                        <i class="bi bi-clipboard"></i> Copiar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
-                <div class="row">
+                <div class="row p-3">
                     <div class="col-md-6">
                         <h5><i class="bi bi-person-badge"></i> Informações Pessoais</h5>
                         <p class="m-0"><strong>Sexo:</strong> ${deputado.sexo === "M"
@@ -423,12 +434,6 @@
                     : "<p class='m-0'>Informações não disponíveis</p>"
                 }
                         
-                        <h5 class="mt-3"><i class="bi bi-envelope"></i> Contato</h5>
-                        <p class="m-0"><strong>Email:</strong> 
-                            ${deputado.email
-                    ? `<a href="mailto:${deputado.email}">${deputado.email}</a>`
-                    : "Não informado"
-                }
                         </p>
                         ${deputado.urlWebsite
                     ? `<p class="m-0"><strong>Website:</strong> <a href="${deputado.urlWebsite}" target="_blank">${deputado.urlWebsite}</a></p>`
@@ -436,35 +441,21 @@
                 }
                     </div>
                 </div>
-                
-                <hr>
-                
-                <div class="row">
-                    <div class="col-12">
-                        <h5><i class="bi bi-share"></i> Redes Sociais</h5>
-                        <div class="social-links">
-                            ${socialLinks}
-                        </div>
-                    </div>
-                </div>
-                
-                ${deputado.descricaoStatus
-                    ? `
-                <hr>
-                <div class="row">
-                    <div class="col-12">
-                        <h5><i class="bi bi-info-circle"></i> Status</h5>
-                        <p class="text-muted">${deputado.descricaoStatus}</p>
-                    </div>
-                </div>
-                `
-                    : ""
-                }
             `;
 
-            updateShareTexts(deputado);
-
             modal.show();
+            
+            // Adicionar event listeners após o modal ser criado
+            document
+                .getElementById("copyEmail")
+                .addEventListener("click", () =>
+                    copyToClipboard("emailText", "copyEmail")
+                );
+            document
+                .getElementById("copySocial")
+                .addEventListener("click", () =>
+                    copyToClipboard("socialText", "copySocial")
+                );
         }
 
         function applyFilters() {
@@ -521,42 +512,6 @@
             renderTable();
         }
 
-        function updateShareTexts(deputado = null) {
-            let emailText, socialText;
-
-            if (deputado) {
-                emailText = `Prezado ${deputado.nome},
-
-Acompanhei seu voto referente a PEC 3 de 2021, também conhecido como PEC da blindagem, e me causou constrangimento em tomar conhecimento de vossa escolha.
-
-Vivemos em um país onde os políticos poderão se tornar intocáveis, aumentando a quantidade de crimes além de confirmar que a impunidade de corruptos se concretizará. Não acredito que seja esta a vontade de seu eleitorado.
-
-Por isso peço que atue contra a aprovação da PEC no Senado, além de dar maiores explicações para seu eleitorado - como eu - que precisa saber se é representado ou não na Câmara dos Deputados.`;
-
-                socialText = `Prezado ${deputado.nome}, seu voto na PEC 3/21 (PEC da blindagem) envergonha eleitores. Ela cria políticos intocáveis e fortalece a impunidade. Peço que atue contra no Senado e explique sua posição a quem representa.`;
-            } else {
-                const totalDeputados = deputadosData.length;
-                const votosCount = {
-                    sim: deputadosData.filter((d) => d.voto === "Sim").length,
-                    nao: deputadosData.filter((d) => d.voto === "Não").length,
-                    abstencao: deputadosData.filter((d) => d.voto === "Abstenção").length,
-                    ausente: deputadosData.filter((d) => d.voto === "Ausente").length,
-                    null: deputadosData.filter((d) => !d.voto).length,
-                };
-
-                emailText = `Prezado congressista,
-
-Acompanhei seu voto referente a PEC 3 de 2021, também conhecido como PEC da blindagem, e me causou constrangimento em tomar conhecimento de vossa escolha.
-
-Vivemos em um país onde os políticos poderão se tornar intocáveis, aumentando a quantidade de crimes além de confirmar que a impunidade de corruptos se concretizará. Não acredito que seja esta a vontade de seu eleitorado.
-
-Por isso peço que atue contra a aprovação da PEC no Senado, além de dar maiores explicações para seu eleitorado - como eu - que precisa saber se é representado ou não na Câmara dos Deputados.`;
-            }
-
-            document.getElementById("emailText").value = emailText;
-            document.getElementById("socialText").value = socialText;
-        }
-
         async function copyToClipboard(elementId, buttonId) {
             const text = document.getElementById(elementId).value;
             const button = document.getElementById(buttonId);
@@ -605,16 +560,6 @@ Por isso peço que atue contra a aprovação da PEC no Senado, além de dar maio
                 .getElementById("limparFiltros")
                 .addEventListener("click", clearFilters);
 
-            document
-                .getElementById("copyEmail")
-                .addEventListener("click", () =>
-                    copyToClipboard("emailText", "copyEmail")
-                );
-            document
-                .getElementById("copySocial")
-                .addEventListener("click", () =>
-                    copyToClipboard("socialText", "copySocial")
-                );
         });
     </script>
 </body>
