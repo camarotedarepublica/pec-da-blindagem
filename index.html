@@ -236,14 +236,14 @@
 
                 row.innerHTML = `
                     <td class="align-middle">
-                        <strong>${deputado.nome}</strong> (<small class="text-muted">${deputado.nomeEleitoral})</small>
+                        <strong>${deputado.nomeEleitoral}</strong></small>
                     </td>
                     <td class="align-middle">
-                        <span class="badge bg-primary">${deputado.siglaPartido
+                        <span>${deputado.siglaPartido
                     }</span>
                     </td>
                     <td class="align-middle">
-                        <span class="badge bg-secondary">${deputado.siglaUf
+                        <span>${deputado.siglaUf
                     }</span>
                     </td>
                     <td class="align-middle">
@@ -268,15 +268,15 @@
         function getVoteClass(voto) {
             switch (voto) {
                 case "Sim":
-                    return "vote-sim";
+                    return "badge text-bg-danger";
                 case "Não":
-                    return "vote-nao";
+                    return "badge text-bg-success";
                 case "Abstenção":
-                    return "vote-abstencao";
+                    return "badge text-bg-secondary";
                 case "Ausente":
-                    return "vote-ausente";
+                    return "badge text-bg-secondary";
                 default:
-                    return "vote-null";
+                    return "badge text-bg-secondary";
             }
         }
 
